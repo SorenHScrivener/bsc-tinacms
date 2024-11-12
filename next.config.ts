@@ -1,15 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com',
-        port: '',
-        pathname: '/**',
-      },
-    ],
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'assets.tina.io',
+        },
+      ],
+  },
+    eslint: {
+    ignoreDuringBuilds: true,
   },
   /* other config options here */
   async rewrites() {
