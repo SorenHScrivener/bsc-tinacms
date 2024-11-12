@@ -24,7 +24,7 @@ sections:
           - subTitle: CEDARst– Multi-Family
             backgroundColor: '#B5C998'
             opacity: 15
-            borderColor: '#8FB3EC'
+            borderColor: '#95BB6A'
             image: /logos/cs2.png
             copy: >
               CEDARst has taken a vertically integrated approach to developing
