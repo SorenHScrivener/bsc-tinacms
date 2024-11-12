@@ -12,7 +12,7 @@ export default function Team({
     <>
           <div className='mt-8 md:mx-auto mb-14 md:w-[85vw] flex flex-col items-center' aria-labelledby="team-title">
               <div className='grid grid-cols-2 px-4 lg:px-0 gap-x-5 gap-y-5 lg:gap-x-10 lg:gap-y-8 justify-center'>
-                  {props?.member?.map((i, key) => {
+                  {props?.member?.map((i: { backgroundColor: any; image: any; name: string | number | bigint | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<React.AwaitedReactNode> | null | undefined; title: string | number | bigint | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<React.AwaitedReactNode> | null | undefined; }, key:number) => {
                       return (
                           <div key={key} data-id={key}
                               data-tina-field={tinaField(i)} 
@@ -22,7 +22,7 @@ export default function Team({
                             `}>
                               <Image
                                   src={i?.image ?? '/default-image.png'}
-                                  alt={i?.name ?? 'default name'}
+                                  alt={String(i?.name) ?? 'default name'}
                                   width={272}
                                   height={272}
                                   className='w-full'

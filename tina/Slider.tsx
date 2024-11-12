@@ -1,7 +1,13 @@
 import React from 'react'
 import { wrapFieldsWithMeta } from 'tinacms'
 
-export const Slider = wrapFieldsWithMeta(( {  field, input, meta }) => {
+interface RangeField {
+    label: string;
+    range: [number, number];
+    steps: number;
+}
+
+export const Slider = wrapFieldsWithMeta(({ field, input, meta }: { field: RangeField, input: any, meta: any }) => {
     const label = field.label;
     return (
         <div>

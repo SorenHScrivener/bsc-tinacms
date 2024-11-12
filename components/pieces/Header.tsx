@@ -79,7 +79,7 @@ export default function Header(props: PageAndNavAndDataQuery['nav']) {
                               ,
                           }
                         )}>
-                        {props?.links?.map((link, index) => {
+                        {props?.links?.map((link) => {
                             return (
                                 <li
                                     data-tina-field={link && tinaField(link, 'label')}

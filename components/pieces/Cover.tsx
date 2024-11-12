@@ -1,10 +1,10 @@
 "use client"
 import { PageCover } from '@/tina/__generated__/types';
-import { useTina } from 'tinacms/dist/react';
+// import { useTina } from 'tinacms/dist/react';
 
 import { tinaField } from 'tinacms/dist/react'
 
-import placeholder from '@/public/placeholders/cover.jpg'
+// import placeholder from '@/public/placeholders/cover.jpg'
 
 export default function Cover(props: PageCover) {
   // console.log(props)

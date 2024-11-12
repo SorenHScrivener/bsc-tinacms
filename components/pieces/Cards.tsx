@@ -4,7 +4,8 @@ import { tinaField } from 'tinacms/dist/react'
 import Image from 'next/image'
 import hexRgb from 'hex-rgb';
 
-export default function SimpleCopy({
+
+export default function Cards({
     ...props
 }) {
     let bgColor;
@@ -12,7 +13,7 @@ export default function SimpleCopy({
         <>
             <div className="mt-10 mb-[7rem] flex flex-col items-center">
                 <div className="outer-process grid lg:grid-cols-2 lg-tab:grid-cols-1 items-center gap-12">
-                    {props.cards.map((card, index) => {
+                    {props.cards.map((card: { backgroundColor: string; opacity: string; borderColor: string; subTitle?: string; copy: any; image: string }, index: number) => {
                         bgColor = hexRgb(card.backgroundColor);
                         bgColor.alpha = parseInt(card.opacity) / 100;
                         bgColor = Object.values(bgColor).join(', ')

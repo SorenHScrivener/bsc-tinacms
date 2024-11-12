@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 import { useTina } from 'tinacms/dist/react';
 import { tinaField } from 'tinacms/dist/react'
 
-import { PageAndNavAndDataQuery, PageAndNavAndDataQueryVariables } from '@/tina/__generated__/types';
+import { PageAndNavAndDataQuery } from '@/tina/__generated__/types';
 
 import Image from 'next/image';
 
@@ -23,7 +23,6 @@ import Bio from './pieces/bio';
 import Cards from './pieces/Cards';
 import CardsLogo from './pieces/CardsLogo'; 
 
-import Link from 'next/link';
 import { usePathname } from "next/navigation"
 
 import Footer from './pieces/Footer';
