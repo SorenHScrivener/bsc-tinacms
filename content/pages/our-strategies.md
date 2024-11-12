@@ -40,7 +40,7 @@ sections:
           - subTitle: Apollo United – Self-Storage
             backgroundColor: '#D6E4F0'
             opacity: 35
-            borderColor: '#8FB3EC'
+            borderColor: '#D6E4F0'
             image: /logos/au2.png
             copy: >
               Apollo United is a Texas-based real estate investment firm that
