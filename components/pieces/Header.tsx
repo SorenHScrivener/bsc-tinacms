@@ -25,7 +25,7 @@ export default function Header(props: PageAndNavAndDataQuery['nav']) {
         <header className={clsx(
             "w-screen fixed z-50 lg:h-28 lg-tab:h-[initial] grid items-center shadow-gray-800/70 shadow-xl",
             {
-                "bg-black": dropDownExtended,
+                "bg-black": dropDownExtended || rootPath === "/privacy-policy",
                 "bg-black/65": !dropDownExtended && rootPath !== "/privacy-policy",
             }
         )}
