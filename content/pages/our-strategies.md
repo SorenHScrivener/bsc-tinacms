@@ -23,7 +23,7 @@ sections:
         cards:
           - subTitle: CEDARst– Multi-Family
             backgroundColor: '#B5C998'
-            opacity: 15
+            opacity: 25
             borderColor: '#B5C998'
             image: /logos/cs2.png
             copy: >
