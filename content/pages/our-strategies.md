@@ -39,7 +39,7 @@ sections:
               some of the largest institutional partners in the country.
           - subTitle: Apollo United – Self-Storage
             backgroundColor: '#D6E4F0'
-            opacity: 35
+            opacity: 28
             borderColor: '#D6E4F0'
             image: /logos/au2.png
             copy: >
