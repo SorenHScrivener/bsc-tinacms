@@ -1,0 +1,44 @@
+query pageAndNavAndData($relativePath: String!) {
+  page(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...PageParts
+  }
+  nav(relativePath: "Nav.md") {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...NavParts
+  }
+  data(relativePath: "BSC-Data.md") {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...DataParts
+  }
+}
