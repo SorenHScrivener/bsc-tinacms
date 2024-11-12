@@ -57,6 +57,10 @@ export default defineConfig({
         name: "page",
         label: "Page",
         path: "content/pages",
+        allowedActions: {
+          create: false,
+          delete: false,
+        },
         ui: {
           router: props => {
             if (props.document._sys.relativePath === 'BackStory-Capitals-Homepage.md') {
