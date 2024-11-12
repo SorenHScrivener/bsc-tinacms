@@ -1,5 +1,0 @@
----
-pageTitle: test
-slug: /delete
----
-
