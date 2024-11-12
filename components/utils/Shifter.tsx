@@ -20,7 +20,7 @@ export default function Shifter({
             const width = window.innerWidth;
             const bg = width > 1300 ? 'bg-black/65' : 'bg-black/65';
             if (entry && entry.intersectionRatio < 0.8 && (entry.target.querySelector('div') as Element).id === 'main-cover') {
-                console.log('change heading');
+                // console.log('change heading');
                 header?.classList.remove(bg);
                 header?.classList.add('bg-black', "shadow-gray-800/20");
                     

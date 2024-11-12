@@ -4,10 +4,10 @@ import { tinaField } from 'tinacms/dist/react'
 import Image from 'next/image'
 import hexRgb from 'hex-rgb';
 
-export default function SimpleCopy({
+export default function CardsLogo({
     ...props
 }) {
-    console.log(props)
+    // console.log(props)
     let bgColor;
     return (
         <div className='flex flex-col items-center mx-4 lg:mx-0'>
@@ -16,7 +16,6 @@ export default function SimpleCopy({
                     bgColor = hexRgb(card.backgroundColor);
                     bgColor.alpha = parseInt(card.opacity) / 100;
                     bgColor = Object.values(bgColor).join(', ')
-                    console.log(`rgba(${bgColor})`)
                     return (
                         <div data-tina-field={tinaField(card)} key={index}
                             style={{
