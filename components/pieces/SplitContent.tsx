@@ -5,7 +5,7 @@ import { tinaField } from 'tinacms/dist/react'
 export default function SplitContent({
     ...props
 }) {
-    console.log(props.backgroundColor)
+    // console.log(props.backgroundColor)
   return (
       <div
           data-tina-field={tinaField(props)}

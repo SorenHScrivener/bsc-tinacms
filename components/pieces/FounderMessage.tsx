@@ -6,7 +6,7 @@ import { tinaField } from 'tinacms/dist/react'
 export default function FounderMessage({
     ...props
 }) {
-    console.log(props.copy)
+    // console.log(props.copy)
   return (
     <div id='founder-message' className="relative mb-[1rem] lg:grid align-top lg:max-h-[55rem] overflow-hidden">
         <Image
