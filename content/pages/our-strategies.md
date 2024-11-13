@@ -37,7 +37,7 @@ sections:
               the U.S. The CEDARst team has successfully developed or invested
               in over 65 assets, totaling 8,000 units across nine states with
               some of the largest institutional partners in the country.
-          - subTitle: Apollo United – Self-Storage
+          - subTitle: Ideal Self Storage
             backgroundColor: '#D6E4F0'
             opacity: 28
             borderColor: '#D6E4F0'
