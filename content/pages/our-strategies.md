@@ -41,19 +41,23 @@ sections:
             backgroundColor: '#D6E4F0'
             opacity: 28
             borderColor: '#D6E4F0'
-            image: /logos/au2.png
+            image: /logos/Ideal Self Storage Logo new--medium.webp
+            auxImage: /logos/au2.png
             copy: >
-              Apollo United is a Texas-based real estate investment firm that
-              seeks to achieve superior risk- adjusted returns through
-              investments in self-storage properties. They invest in existing
-              value- add properties as well as new construction in secondary and
-              tertiary markets fed by the five Texas Metropolitan Statistical
-              Areas (MSAs) – Dallas-Fort Worth, Houston, Austin, Waco, and San
-              Antonio. Their Leadership team has a combined 100+ years of
-              experience managing (assets, properties, and investments), due
-              diligence, capital markets and underwriting and has managed
-              approximately $2B of assets including a portfolio of 46
-              self-storage assets with an exit value of approximately $200M.
+              Founded in 2010 and headquartered in Waco, TX, Ideal Self Storage
+              manages over 30 facilities, totaling more than one million square
+              feet of commercial real estate. Ideal Self Storage specializes in
+              sourcing off-market opportunities, overseeing day-to-day
+              operations of Apollo United’s self-storage assets, driving
+              operational efficiencies, and managing property expansion and
+              construction. The Owner/President served on the Texas Self Storage
+              Association (TSSA) Board of Directors for eight years and as
+              President in 2019.
+
+
+              In partnership with Apollo United as the asset manager, this joint
+              venture combines deep local market insight with top-tier property
+              management practices.
         _template: cardsArray
   - sectionTitle: Our Partners
     id: Id-847714648675

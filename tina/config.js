@@ -574,6 +574,11 @@ export default defineConfig({
                               label: "image",
                             },
                             {
+                              type: "image",
+                              name: "auxImage",
+                              label: "Aux Image",
+                            },
+                            {
                               type: "rich-text",
                               toolbarOverride: [],
                               name: "copy",

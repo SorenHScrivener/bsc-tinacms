@@ -23,7 +23,7 @@ export default function CardsLogo({
                                 borderColor: card.borderColor
                             }} className='md:w-[40rem] border md:m-auto lg:m-[initial] p-4'>
                             <div className='relative flex flex-col lg:flex-row items-start'>
-                                {card.subTitle && <h3 className='font-auxTitle text-2xl mb-3 lg:mb-5'>CEDARst– Multi-Family</h3>}
+                                {card.subTitle && <h3 className='font-auxTitle text-2xl mb-3 lg:mb-5'>{card.subTitle}</h3>}
                                 <Image
                                     alt=''
                                     src={card.image}
@@ -32,11 +32,26 @@ export default function CardsLogo({
                                     height={100}
                                 />
                             </div>
-                            <TinaMarkdown content={card.copy} components={{
-                                p: props => <p className={`
+                            <div className='grid'>
+                                <div className='flex flex-col gap-y-2'>
+                                    <TinaMarkdown content={card.copy} components={{
+                                        p: props => <p className={`
                                                 pr-2
                                         `} {...props} />
-                            }} />
+                                    }} />
+                                </div>
+                                {card.auxImage &&
+                                    <div>
+                                        <Image
+                                            alt=''
+                                            src={card.auxImage}
+                                            className='my-2 lg:mb-0 h-[2.25rem] w-auto'
+                                            width={200}
+                                            height={100}
+                                        />
+                                    </div>
+                                }
+                            </div>
                         </div>
                     )
                 })}
