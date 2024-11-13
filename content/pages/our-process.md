@@ -31,9 +31,9 @@ sections:
             image: /cardImgs/laptop-3196481_640.jpg
             copy: >
               During this phase, our team offers consulting services for
-              oversight, asset management, reporting, and best practices. At
-              BackStory, we place the highest importance on the due diligence
-              process to ensure thorough and informed decision-making.
+              oversight, reporting, and best practices. At BackStory, we place
+              the highest importance on the due diligence process to ensure
+              thorough and informed decision-making.
           - subTitle: Compliance
             backgroundColor: '#D6E4F0'
             opacity: 54
