@@ -12,7 +12,7 @@ export default function CardsLogo({
     return (
         <div className='flex flex-col items-center mx-4 lg:mx-0'>
             <div className='grid lg:grid-cols-2 lg-tab:grid-cols-1 lg:gap-x-10 gap-y-6 lg:gap-y-0 lg-tab:gap-y-6\'>
-                {props.cards.map((card: { backgroundColor: string; opacity: string; borderColor: string; subTitle?: string; image: string; copy: any }, index: number) => {
+                {props.cards.map((card: { backgroundColor: string; opacity: string; borderColor: string; subTitle?: string; image: string; copy: any; auxImage?: string }, index: number) => {
                     bgColor = hexRgb(card.backgroundColor);
                     bgColor.alpha = parseInt(card.opacity) / 100;
                     bgColor = Object.values(bgColor).join(', ')
