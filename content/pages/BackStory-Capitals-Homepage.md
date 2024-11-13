@@ -2,7 +2,7 @@
 pageTitle: BackStory Capital's Homepage
 slug: /
 cover:
-  copy: Every Backstory Inspires New Oppurtunities
+  copy: Every Backstory Inspires New Opportunities
   coverImage: /Covers/home.webp
   brightness: 65
 sections:
