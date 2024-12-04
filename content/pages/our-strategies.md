@@ -58,6 +58,24 @@ sections:
               In partnership with Apollo United as the asset manager, this joint
               venture combines deep local market insight with top-tier property
               management practices.
+          - subTitle: 'TradeBacked '
+            backgroundColor: '#D6E4F0'
+            opacity: 100
+            borderColor: '#8FB3EC'
+            image: /TB-Logo.png
+            copy: >
+              TradeBacked Inc is a specialty finance firm that provides
+              growth-stage loans and trade finance to established small and
+              medium-sized enterprises in select markets with limited access to
+              affordable capital. This shortage of capital helps create a
+              meaningful opportunity to generate competitive risk-adjusted
+              returns by supplying funds to growing companies with experienced
+              management teams and stable, positive cash flows. TradeBacked is
+              led by an experienced, entrepreneurial trade finance and
+              alternative asset management team with excess of 50 years of
+              industry experience. Areas of specialties include origination,
+              underwriting, monitoring, operations, portfolio and fund
+              management.
         _template: cardsArray
   - sectionTitle: Our Partners
     id: Id-847714648675
