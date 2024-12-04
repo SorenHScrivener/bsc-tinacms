@@ -28,7 +28,7 @@ sections:
     content:
       - backgroundColor: '#95BB6A'
         isImageFirst: false
-        image: /splitImages/map.bmp
+        image: /splitImages/iStock-952980894.jpg
         copy: >
           We serve investors across the nation, focusing on distributing
           strategies tailored for those seeking alternative investment solutions
