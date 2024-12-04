@@ -28,7 +28,7 @@ export default function Footer(props: PageAndNavAndDataQuery['data']) {
                             <FaIcon icon={linkedin} className="text-3xl" aria-hidden="true" />
                         </a>
                     )
-                ))}
+                ))} 
                 <div className='lg:h-8 self-end flex flex-col lg:flex-row gap-x-3 items-center justify-center'>
                     <div className="flex gap-x-3">
                         <p>
