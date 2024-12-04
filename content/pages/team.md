@@ -53,7 +53,6 @@ sections:
           - backgroundColor: '#95BB6A'
             name: Patrick LeBlanc
             title: Managing Director
-            bio: ''
             image: /patrick.jpg
           - backgroundColor: '#95BB6A'
             name: Devon Gasparovic
