@@ -67,7 +67,7 @@ sections:
               advisor relationships and maintained a standard of unparalleled
               customer service. Devon holds FINRA series 7 and 63 licenses.
             image: /Team/clw0gkfav014q0lyo084xh7ma-devon.full_inn3ux.jpg
-          - backgroundColor: '#95BB6A'
+          - backgroundColor: '#8FB3EC'
             name: Nicole Davis
             title: Operations Manager
             bio: >
