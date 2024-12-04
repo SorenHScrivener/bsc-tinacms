@@ -152,18 +152,6 @@ export default defineConfig({
                 isTitle: true,
                 required: true,
               },
-              // {
-              //     label: "Font Size",
-              //     name: "fontSize",
-              //     type: "number",
-              //     description: "determines the brightness of the image",
-              //     ui: {
-              //       parse: (val) => Number(val),
-              //       component: Slider,
-              //       range: ['0', '10'],
-              //       steps: '0.1'
-              //     }
-              // },
               {
                 type: "boolean",
                 name: "isTitleHidden",

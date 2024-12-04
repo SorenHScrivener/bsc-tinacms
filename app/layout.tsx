@@ -44,6 +44,8 @@ export default function RootLayout({
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
                 <meta name="apple-mobile-web-app-title" content="Backstory Capital" />
                 <link rel="manifest" href="/favicon/site.webmanifest" />
+
+                <script defer data-domain="backstory-cap.com" src="https://plausible.io/js/script.js"></script>
             </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} ${pfd.variable} ${pfdsc.variable} ${lato.variable} antialiased font-main`}
