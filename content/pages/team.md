@@ -50,7 +50,8 @@ sections:
               graduated from the Terry College of Business at the University of
               Georgia. He holds his Series 7, 24, and 63 licenses.
             image: /Team/Brian_Leaf-2_mnrni5.jpg
-          - name: Patrick LeBlanc
+          - backgroundColor: '#95BB6A'
+            name: Patrick LeBlanc
             title: Managing Director
             bio: ''
             image: /patrick.jpg
