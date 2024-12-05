@@ -53,6 +53,15 @@ sections:
           - backgroundColor: '#95BB6A'
             name: Patrick LeBlanc
             title: Managing Director
+            bio: >
+              Patrick has more than 15 years of experience in real estate
+              investment, alternative investments and sales management and has
+              led teams across the country. Prior to joining BackStory Capital,
+              he worked with Storage Units Capital Partners as the Chief Sales
+              Officer, IGRE as the West Coast divisional sales manager, and
+              Forum Partners as their national sales director. Patrick earned a
+              bachelor’s degree in communications and media studies from Sam
+              Houston State University in Huntsville, Texas.
             image: /patrick.jpg
           - backgroundColor: '#95BB6A'
             name: Devon Gasparovic
