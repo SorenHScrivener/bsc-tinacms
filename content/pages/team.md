@@ -76,13 +76,17 @@ sections:
             name: Devon Gasparovic
             title: VP of Capital Markets
             bio: >
-              Devon is Vice President of Capital Markets at Backstory Capital.
-              He brings a wealth of expertise in wholesaling fixed income and
-              equity mutual funds across various channels, including BD, RIA,
-              bank, and family office. Prior to joining Backstory, he was with
-              Kensington Investment Distributors, where he cultivated enduring
-              advisor relationships and maintained a standard of unparalleled
-              customer service. Devon holds FINRA series 7 and 63 licenses.
+              Devon serves as Vice President of Capital Markets at Backstory
+              Capital, bringing extensive experience in wholesaling fixed income
+              and equity mutual funds across diverse channels, including
+              broker-dealers, RIAs, banks, and family offices.
+
+
+              Before joining Backstory, Devon was with Kensington Investment
+              Distributors, where he excelled in building lasting relationships
+              with advisors while upholding a commitment to exceptional customer
+              service. He is a FINRA-licensed professional, holding Series 7 and
+              Series 63 certifications.
             image: /Team/clw0gkfav014q0lyo084xh7ma-devon.full_inn3ux.jpg
           - backgroundColor: '#8FB3EC'
             name: Nicole Davis
