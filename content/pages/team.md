@@ -88,16 +88,20 @@ sections:
             name: Nicole Davis
             title: Operations Manager
             bio: >
-              With over 18 years of experience, Nicole excels in guiding
-              management decisions, developing strategies, and optimizing
-              operations for the Backstory team. Her expertise includes
-              enhancing processes, identifying inefficiencies, and providing
-              top-tier administrative support to company leaders, ensuring
-              seamless execution of key tasks and initiatives. As the main
-              liaison for both internal and external stakeholders, she handles
-              all executive-related matters, including those of a sensitive or
-              confidential nature. She is also a licensed Realtor and a
-              Certified Probate Real Estate Specialist.
+              With more than 18 years of experience, Nicole brings exceptional
+              expertise in driving management decisions, developing strategic
+              initiatives, and optimizing operations for the Backstory team. She
+              specializes in streamlining processes, identifying inefficiencies,
+              and delivering high-level administrative support to company
+              leadership, ensuring the smooth execution of critical tasks and
+              initiatives.
+
+
+              As the primary liaison for internal and external stakeholders,
+              Nicole manages all executive-related matters, including those
+              requiring discretion and confidentiality. In addition to her
+              operational expertise, she is a licensed Realtor and a Certified
+              Probate Real Estate Specialist.
             image: /Team/Nicole_Headshot_attz8c.jpg
         _template: team
 ---
