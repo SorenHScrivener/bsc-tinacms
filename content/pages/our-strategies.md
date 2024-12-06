@@ -27,16 +27,20 @@ sections:
             borderColor: '#B5C998'
             image: /logos/cs2.png
             copy: >
-              CEDARst has taken a vertically integrated approach to developing
-              residential assets throughout the U.S., controlling design,
-              construction development and property management. CEDARst
-              pioneered micro-unit multifamily development in Chicago,
-              identifying an unmet demand for high-quality apartments at an
-              approachable price point. CEDARst has found its sweet spot
-              bringing Class A housing product to in-fill communities throughout
-              the U.S. The CEDARst team has successfully developed or invested
-              in over 65 assets, totaling 8,000 units across nine states with
-              some of the largest institutional partners in the country.
+              CEDARst takes a vertically integrated approach to residential
+              development across the United States, managing all aspects of
+              design, construction, development, and property management
+              in-house. As a pioneer of micro-unit multifamily development in
+              Chicago, CEDARst identified and addressed a significant demand for
+              high-quality, affordably priced apartments.
+
+
+              The company specializes in delivering Class A housing to in-fill
+              communities nationwide, combining innovative design with strategic
+              market placement. To date, the CEDARst team has successfully
+              developed or invested in over 65 assets, encompassing 8,000 units
+              across nine states, in partnership with some of the largest
+              institutional investors in the country.
           - subTitle: Apollo United – Self-Storage
             backgroundColor: '#D6E4F0'
             opacity: 28
