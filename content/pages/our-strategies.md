@@ -45,19 +45,24 @@ sections:
             auxImage: /logos/au2.png
             copy: >
               Founded in 2010 and headquartered in Waco, TX, Ideal Self Storage
-              manages over 30 facilities, totaling more than one million square
-              feet of commercial real estate. Ideal Self Storage specializes in
-              sourcing off-market opportunities, overseeing day-to-day
-              operations of Apollo United’s self-storage assets, driving
-              operational efficiencies, and managing property expansion and
-              construction. The Owner/President served on the Texas Self Storage
-              Association (TSSA) Board of Directors for eight years and as
-              President in 2019.
+              oversees the management of more than 30 facilities, encompassing
+              over one million square feet of commercial real estate. The
+              company specializes in sourcing off-market opportunities, managing
+              the daily operations of Apollo United’s self-storage assets,
+              optimizing operational efficiencies, and overseeing property
+              expansion and construction projects.
 
 
-              In partnership with Apollo United as the asset manager, this joint
-              venture combines deep local market insight with top-tier property
-              management practices.
+              The Owner and President of Ideal Self Storage brings extensive
+              industry leadership, having served on the Texas Self Storage
+              Association (TSSA) Board of Directors for eight years, including
+              as President in 2019.
+
+
+              Through a strategic partnership with Apollo United as the asset
+              manager, this joint venture leverages deep local market expertise
+              and best-in-class property management practices to drive
+              exceptional performance.
           - subTitle: TradeBacked Capital
             backgroundColor: '#D6E4F0'
             opacity: 100
