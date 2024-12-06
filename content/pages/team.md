@@ -21,19 +21,20 @@ sections:
             name: Brandon Hughes
             title: Co-Founder & Managing Partner
             bio: >
-              Brandon is Co-Founder & Managing Partner of Backstory Capital. He
-              is responsible for developing and executing capital strategy for
-              growth and serves as the primary contact for the investor
-              community. Brandon has over 17 years of capital markets experience
-              focused on alternative investments and raising capital for public
-              and private funds.
+              Brandon is the Co-Founder and Managing Partner of Backstory
+              Capital, where he leads the development and execution of
+              growth-focused capital strategies and serves as the primary
+              liaison to the investor community. With over 19 years of
+              experience in capital markets, Brandon specializes in alternative
+              investments and raising capital for both public and private funds.
 
 
-              Most recently, Brandon spent 6 years at Peachtree Group where he
-              was instrumental in building distribution and growing AUM over
-              $4B. Brandon holds a BBA in Finance from the Parker School of
-              Business at Georgia Southern University. He is a frequent speaker
-              at industry-related conferences.
+              Prior to founding Backstory Capital, Brandon spent six years at
+              Peachtree Group, where he played a key role in expanding
+              distribution and growing assets under management to over $4
+              billion. He holds a Bachelor of Business Administration in Finance
+              from the Parker School of Business at Georgia Southern University
+              and is a frequent speaker at industry conferences.
             image: /Team/Brandon_Hughes_-_2_tofcek.jpg
           - backgroundColor: '#8FB3EC'
             name: Brian Leaf
