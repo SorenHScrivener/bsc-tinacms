@@ -40,16 +40,20 @@ sections:
             name: Brian Leaf
             title: Co-Founder & Managing Partner
             bio: >
-              Brian is Co-Founder & Managing Partner of Backstory Capital. He is
-              responsible for developing, growing, and maintaining relationships
-              with financial advisors. Brian has over 11 years of experience in
-              capital markets, with a focus on raising capital for private funds
-              through alternative investments and tax advantage strategies. Most
-              recently, Brian served as VP of Peachtree Group Investors and Head
-              of Internal Wholesalers. Throughout his career, Brian has
-              facilitated and raised over $2 billion dollars of capital. Brian
-              graduated from the Terry College of Business at the University of
-              Georgia. He holds his Series 7, 24, and 63 licenses.
+              Brian is the Co-Founder and Managing Partner of Backstory Capital,
+              where he oversees the development, growth, and management of
+              relationships with financial advisors. With over 12 years of
+              capital markets experience, Brian specializes in raising capital
+              for private funds through alternative investments and
+              tax-advantaged strategies.
+
+
+              Previously, Brian served as Vice President of Peachtree Group
+              Investors and Head of Internal Wholesalers, where he played a
+              pivotal role in facilitating and raising over $2 billion in
+              capital throughout his career. He is a graduate of the Terry
+              College of Business at the University of Georgia and holds FINRA
+              Series 7, 24, and 63 licenses.
             image: /Team/Brian_Leaf-2_mnrni5.jpg
           - backgroundColor: '#95BB6A'
             name: Patrick LeBlanc
