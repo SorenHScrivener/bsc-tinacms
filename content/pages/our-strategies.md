@@ -73,18 +73,21 @@ sections:
             borderColor: '#8FB3EC'
             image: /TB-Logo.png
             copy: >
-              TradeBacked is a specialty finance firm that provides growth-stage
-              loans and trade finance to established small and medium-sized
-              enterprises in select markets with limited access to affordable
-              capital. This shortage of capital helps create a meaningful
-              opportunity to generate competitive risk-adjusted returns by
-              supplying funds to growing companies with experienced management
-              teams and stable, positive cash flows. TradeBacked is led by an
-              experienced, entrepreneurial trade finance and alternative asset
-              management team with with over 50 years of combined industry
-              experience. Areas of specialties include origination,
-              underwriting, monitoring, operations, portfolio and fund
-              management.
+              TradeBacked is a specialty finance firm dedicated to providing
+              growth-stage loans and trade finance solutions to established
+              small and medium-sized enterprises (SMEs) in select markets where
+              access to affordable capital is limited. This capital gap presents
+              a significant opportunity to achieve competitive, risk-adjusted
+              returns by financing growth-oriented companies with experienced
+              management teams and stable, positive cash flows.
+
+
+              Led by a seasoned team with over 50 years of combined experience
+              in trade finance and alternative asset management, TradeBacked
+              specializes in origination, underwriting, portfolio monitoring,
+              operations, and fund management. The firm's entrepreneurial
+              approach ensures tailored financial solutions and disciplined
+              management across all facets of its operations.
         _template: cardsArray
   - sectionTitle: Our Partners
     id: Id-847714648675
