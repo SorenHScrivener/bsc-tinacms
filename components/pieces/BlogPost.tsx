@@ -6,6 +6,8 @@ import { useTina } from 'tinacms/dist/react';
 import { tinaField } from 'tinacms/dist/react'
 import { TinaMarkdown } from 'tinacms/dist/rich-text';
 
+import fillerImg from '@/public/placeholders/team.png';
+
 import Link from 'next/link';
 
 import Header from './Header';
@@ -22,10 +24,11 @@ interface BlogPostProps {
         relativePath: string;
     };
     query: string;
+    page: number;
 }
 
 const components = {
-    splitContent: (props) => {
+    splitContent: (props: { orientation: string; copy: any; imageWidth?: number; imageHeight?: number; image?: string }) => {
         const orientation = props.orientation;
         return (
             <>
@@ -68,11 +71,12 @@ const BlogPost: React.FC<BlogPostProps> = (props: {
             relativePath: string;
         },
         query: string,
+        page: number,
     }) => {
     const { data } = useTina(props)
-
+    
+    // @ts-ignore
     const setUp = props.setUp;
-    console.log(props.page);
     const entry = data.blogPosts;
     
     setUp.page.cover.copy = entry.title;
@@ -98,7 +102,7 @@ const BlogPost: React.FC<BlogPostProps> = (props: {
                     <p
                         data-tina-field={tinaField(entry, 'date')}
                         className='font-auxTitle italic text-3xl mb-1'
-                    >{new Date(entry.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</p>
+                    >{entry.date ? new Date(entry.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Invalid date'}</p>
                     {/* <h1 data-tina-field={tinaField(entry, 'title')} className='text-5xl font-semibold'>{entry.title}</h1> */}
                     
                     <div className='mt-4 mb-8 px-4 md:px-[12rem] max-w-[1350px]'>

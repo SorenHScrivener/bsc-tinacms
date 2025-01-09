@@ -2,7 +2,7 @@ import PageComponent from "@/components/main";
 import { client } from "@/tina/__generated__/client"
 // import BlogWrapper from "@/components/wrappers/blogWrapper"; 
 
-export default async function page(props) {
+export default async function page(): Promise<JSX.Element> {
     const result = await client.queries.pageAndNavAndData({ relativePath: "blog-posts.md" });
     const blogPostsResult = await client.queries.blogPostsConnection()
     const blogPosts = blogPostsResult.data.blogPostsConnection.edges?.map((post) => {

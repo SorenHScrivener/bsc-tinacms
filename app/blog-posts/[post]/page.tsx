@@ -8,13 +8,15 @@ import { NextRequest } from 'next/server';
 
 interface BlogPostPageProps {
     post: string;
+    params: { post: string };
+    searchParams: { page: string };
 }
 
 const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params, searchParams }) => {
 
-    const res = await params;
+    const res = params;
 
-    const search = await searchParams;
+    const search = searchParams;
 
     // const request = new NextRequest(params);
     // const searchParams = new URLSearchParams(request.url);
@@ -24,11 +26,13 @@ const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params, searchParams 
 
     const result = await client.queries.pageAndNavAndData({ relativePath: "blog-posts.md" });
 
-    post.setUp = result.data;
-    post.page = search.page;
+    // @ts-ignore
+        post.setUp = result.data;
+    // @ts-ignore
+        post.page = search.page;
 
     return (
-        <BlogPost {...post} />
+        <BlogPost page={0} {...post} />
     );
 };
 
