@@ -5,20 +5,15 @@ import { client } from "@/tina/__generated__/client"
 import BlogPost from "@/components/pieces/BlogPost";
 
 interface BlogPostPageProps {
-    post: string;
     params: { post: string };
-    searchParams: { page: string };
+    searchParams: { page: number };
 }
 
-const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params, searchParams }) => {
+const BlogPostPage = async ({ params, searchParams }: BlogPostPageProps) => {
 
     const res = params;
 
     const search = searchParams;
-
-    // const request = new NextRequest(params);
-    // const searchParams = new URLSearchParams(request.url);
-    // const page = searchParams.get('page');
 
     const post = await client.queries.blogPosts({ relativePath: `${res.post}` });
 
