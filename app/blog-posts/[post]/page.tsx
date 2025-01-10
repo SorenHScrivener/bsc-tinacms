@@ -5,7 +5,6 @@ import { client } from "@/tina/__generated__/client"
 import BlogPost from "@/components/pieces/BlogPost";
 
 interface BlogPostPageProps {
-    post: string;
     params: { post: string };
     searchParams: { page: string };
 }
