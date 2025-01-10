@@ -17,14 +17,13 @@ export default async function page(): Promise<JSX.Element> {
         return null;
     }).filter(Boolean);
 
-    // (result.data as any).blogPosts = blogPosts;
-
     const blogPostsArray = await Promise.all(blogPosts?.map(async (post) => {
         const result = await client.queries.blogPosts({ relativePath: `${post!.slug}.mdx` });
         return result;
     }) || []);
     
-    (result.data as any).blogPosts = blogPostsArray;
+    const data = result.data as { blogPosts?: typeof blogPostsArray };
+    data.blogPosts = blogPostsArray;
     return (
         <PageComponent  {...result}  />
     )

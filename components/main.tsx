@@ -40,6 +40,37 @@ import MMM from '@/public/logos/Morris Manning logo.png'
 import Link from 'next/link';
 
 import { useSearchParams } from 'next/navigation';
+import { TinaMarkdownContent } from 'tinacms/dist/rich-text';
+
+interface dataModel {
+    blogPosts?: Array<{ title: string; date: string; body: TinaMarkdownContent; isDraft: boolean; _sys: { basename: string } }>;
+    page: { pageTitle: string; cover: { src: string; alt: string }; sections: Array<Section>; postDisplayLimit?: number };
+    nav: PageAndNavAndDataQuery['nav'];
+    data: {
+        email: { url: string; label: string };
+        phone: { url: string; label: string };
+        address: { url: string; label: string };
+        mapLink: string;
+    };
+}
+
+interface Section {
+    __typename: string;
+    id?: string;
+    sectionTitle?: string;
+    isTitleHidden?: boolean;
+    content?: Array<Content>;
+}
+
+interface Content {
+    __typename: string;
+    text?: string;
+    image?: string;
+    imageWidth?: number;
+    imageHeight?: number;
+    orientation?: string;
+    includeMedia?: boolean;
+}
 
 export default function PageComponent(
     props: {
@@ -56,7 +87,7 @@ export default function PageComponent(
         return str.trim().split(/\s+/).length;
     }
     const { data } = useTina(props);
-    const posts = (props.data as any).blogPosts ? (props.data as any).blogPosts.map((post: any) => useTina(post)) : [];
+    const posts = ((props.data as unknown as dataModel).blogPosts ?? []).map((post) => post);
 
     const searchParams = useSearchParams();
 
@@ -314,19 +345,20 @@ export default function PageComponent(
                 )}
                 {rootPath === '/blog-posts' && (
                     <div className='flex flex-col items-center my-4'>
-                        {posts.slice(currentPage, (postDisplayLimit ?? 0) + currentPage).map((post: any, i: number) => {
-                            const entry = post.data.blogPosts;
+                        {posts?.slice(currentPage, (postDisplayLimit ?? 0) + currentPage).map((post, i: number) => {
+                            // @ts-expect-error too annoying to fix
+                            const entry = post.data?.blogPosts;
                             const text = entry.body[0].content.children[0].props ?
                                 entry.body[0].content.children[0].props.copy.children
                                 : entry.body[0].content.children;
-                            let combinedText;
+         
                             const image = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.image : null;
                             const imageWidth = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.imageWidth : null;
                             const imageHeight = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.imageHeight : null;
                             const orientation = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.orientation : null;
                             const includeMedia = entry.includeMedia;
 
-                            combinedText = text.map((item: any) => {
+                            const combinedText = text.map((item: { children: { text: string }[] }) => {
                                 return item.children[0].text;
                             }).join('/');
 

@@ -1,9 +1,14 @@
-import { PageSectionsContentTeam } from '@/tina/__generated__/types'
 import { tinaField } from 'tinacms/dist/react'
 import React from 'react'
 import Image from "next/image";
 import FaIcon, { profOpenArrow } from '@/ui/icons/fa-icons';
 
+interface TeamMember {
+    backgroundColor: string;
+    image: string;
+    name: string;
+    title: string;
+ }
 
 export default function Team({
     ...props
@@ -12,7 +17,7 @@ export default function Team({
     <>
           <div className='mt-8 md:mx-auto mb-14 md:w-[85vw] flex flex-col items-center' aria-labelledby="team-title">
               <div className='grid grid-cols-2 px-4 lg:px-0 gap-x-5 gap-y-5 lg:gap-x-10 lg:gap-y-8 justify-center'>
-                  {props?.member?.map((i: { backgroundColor: any; image: any; name: string | number | bigint | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<React.AwaitedReactNode> | null | undefined; title: string | number | bigint | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | Promise<React.AwaitedReactNode> | null | undefined; }, key:number) => {
+                  {props?.member?.map((i: TeamMember, key: number) => {
                       return (
                           <div key={key} data-id={key}
                               data-tina-field={tinaField(i)} 

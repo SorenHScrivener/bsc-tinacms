@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import { useTina } from 'tinacms/dist/react';
 import { tinaField } from 'tinacms/dist/react'
-import { TinaMarkdown } from 'tinacms/dist/rich-text';
+import { TinaMarkdown, TinaMarkdownContent } from 'tinacms/dist/rich-text';
 
 import fillerImg from '@/public/placeholders/team.png';
 
@@ -27,8 +27,16 @@ interface BlogPostProps {
     page: number;
 }
 
+interface Split {
+    orientation: string;
+    copy: TinaMarkdownContent;
+    imageWidth?: number;
+    imageHeight?: number;
+    image?: string;
+ }
+
 const components = {
-    splitContent: (props: { orientation: string; copy: any; imageWidth?: number; imageHeight?: number; image?: string }) => {
+    splitContent: (props: Split) => {
         const orientation = props.orientation;
         return (
             <>
@@ -36,11 +44,14 @@ const components = {
                     'my-8 relative grid md:grid-cols-2 min-h-[200px] gap-4'
                 )}>
                     <div>
+                        
                         <TinaMarkdown content={props.copy} components={{
+                            // eslint-disable-next-line
                             p: (props: any) => {
                                 return <p className={clsx()} {...props}></p>;
                             },
-                            h3: (props: any) => <h3 className={clsx('text-center md:text-left text-3xl font-semibold mb-4', props.className)} {...props} />,
+                            // eslint-disable-next-line
+                            h3: (props: any) => <h3 className={clsx('text-center md:text-left text-3xl font-semibold mb-4')} {...props} />,
                         }} /> 
                     </div>
                     
@@ -61,7 +72,9 @@ const components = {
             </>
         )
     },
+    // eslint-disable-next-line
     a: (props: any) => <a className={clsx('text-blue-700 hover:underline cursor-pointer')} {...props} />,
+    // eslint-disable-next-line
     h3: (props: any) => <h3 className={clsx('text-center md:text-left text-3xl font-semibold mb-5', props.className)} {...props} />,
 }
 
@@ -75,7 +88,7 @@ const BlogPost: React.FC<BlogPostProps> = (props: {
     }) => {
     const { data } = useTina(props)
     
-    // @ts-ignore
+    // @ts-expect-error too annoying to fix
     const setUp = props.setUp;
     const entry = data.blogPosts;
     

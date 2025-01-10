@@ -1,5 +1,4 @@
 "use client"
-import { useState } from 'react'; 
 import { PageCover as GeneratedPageCover } from '@/tina/__generated__/types';
 
 interface PageCover extends GeneratedPageCover {

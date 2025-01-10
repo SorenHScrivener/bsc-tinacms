@@ -1,8 +1,18 @@
 import React from 'react'
-import { TinaMarkdown } from 'tinacms/dist/rich-text'
+import { TinaMarkdown, TinaMarkdownContent } from 'tinacms/dist/rich-text'
 import { tinaField } from 'tinacms/dist/react'
 import Image from 'next/image'
 import hexRgb from 'hex-rgb';
+
+interface Card {
+    backgroundColor: string;
+    opacity: string;
+    borderColor: string;
+    subTitle?: string;
+    image: string;
+    copy: TinaMarkdownContent | TinaMarkdownContent[];
+    auxImage?: string;
+}
 
 export default function CardsLogo({
     ...props
@@ -12,7 +22,7 @@ export default function CardsLogo({
     return (
         <div className='flex flex-col items-center mx-4 lg:mx-0'>
             <div className='grid lg:grid-cols-2 lg-tab:grid-cols-1 lg:gap-x-10 gap-y-6 lg:gap-y-0 lg-tab:gap-y-6\'>
-                {props.cards.map((card: { backgroundColor: string; opacity: string; borderColor: string; subTitle?: string; image: string; copy: any; auxImage?: string }, index: number) => {
+                {props.cards.map((card: Card, index: number) => {
                     bgColor = hexRgb(card.backgroundColor);
                     bgColor.alpha = parseInt(card.opacity) / 100;
                     bgColor = Object.values(bgColor).join(', ')
@@ -35,7 +45,8 @@ export default function CardsLogo({
                             <div className='grid'>
                                 <div className='flex flex-col gap-y-2'>
                                     <TinaMarkdown content={card.copy} components={{
-                                        p: props => <p className={`
+                                        // eslint-disable-next-line
+                                        p: (props: any) => <p className={`
                                                 pr-2
                                         `} {...props} />
                                     }} />
