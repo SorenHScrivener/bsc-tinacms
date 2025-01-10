@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 
 import { client } from "@/tina/__generated__/client"
 
@@ -29,4 +29,10 @@ const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params, searchParams 
     );
 };
 
-export default BlogPostPage;
+const BlogPostPageWrapper: React.FC<BlogPostPageProps> = (props) => (
+    <Suspense fallback={<div>Loading...</div>}>
+        <BlogPostPage {...props} />
+    </Suspense>
+);
+
+export default BlogPostPageWrapper;
