@@ -2,6 +2,8 @@ import React, { Suspense } from "react";
 import PageComponent from "@/components/main";
 import { client } from "@/tina/__generated__/client";
 
+import Loader from "@/components/others/loader";
+
 const PageContent = async () => {
     const result = await client.queries.pageAndNavAndData({ relativePath: "blog-posts.md" });
     const blogPostsResult = await client.queries.blogPostsConnection();
@@ -29,7 +31,9 @@ const PageContent = async () => {
 
 export default function Page() {
     return (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={
+            <Loader />
+        }>
             <PageContent />
         </Suspense>
     );

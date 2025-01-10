@@ -184,3 +184,118 @@ h2{
     grid-area: mmm;
   }
 }
+
+.turn {
+  display: inline-block;
+  animation: turn-animation 1s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes turn-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 80px;
+  aspect-ratio: 1.154;
+  background: repeating-conic-gradient(from -30deg,#027B7F 0 60deg,#FFA588 0 120deg,#BF1E62 0 180deg); 
+  animation: l13 1.5s infinite alternate;
+}
+
+#l13{
+  width: 140px;
+  aspect-ratio: 1.154;
+  background: repeating-conic-gradient(from -30deg,#027B7F 0 60deg,#FFA588 0 120deg,#BF1E62 0 180deg);
+  animation: l13 1.5s infinite alternate;
+}
+
+svg {
+  width:258px;
+  height:258px;
+}
+
+.tree {
+  fill: #70D392;
+  animation: color-shift 5s infinite ease-out;
+}
+
+.circle-mask {
+  transform-origin: 50% 90%;
+  animation: scale 5s infinite ease-out;
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: scale(0.0);
+  }
+  7%, 90% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes color-shift {
+  0%, 100% {
+    fill: #FFA588;
+  }
+  50% {
+    fill: #70D392;
+  }
+}
+
+/* .rainbow {
+  animation: rainbow-color-change 5s infinite;
+} */
+
+/* @keyframes rainbow-color-change {
+  0% {
+    color: rgb(112, 253, 69);
+  }
+  16.67% {
+    color: rgb(122, 255, 248);
+  }
+  33.33% {
+    color: rgb(201, 208, 250);
+  }
+  50% {
+    color: rgb(123, 255, 244);
+  }
+  66.67% {
+    color: rgb(149, 255, 151);
+  }
+  83.33% {
+    color: rgb(146, 231, 220);
+  }
+  100% {
+    color: rgb(236, 255, 113);
+  }
+} */
+
+.rainbow{
+  animation: pulse 2s infinite, fade 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    font-style: normal;
+  }
+  50% {
+    font-style: oblique;
+  }
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

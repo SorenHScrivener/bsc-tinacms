@@ -4,6 +4,8 @@ import { client } from "@/tina/__generated__/client"
 
 import BlogPost from "@/components/pieces/BlogPost";
 
+import Loader from "@/components/others/loader";
+
 interface BlogPostPageProps {
     params: Promise<{  post: string }>;
     searchParams: Promise<{ page: string }>;
@@ -30,7 +32,9 @@ const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params, searchParams 
 };
 
 const BlogPostPageWrapper: React.FC<BlogPostPageProps> = (props) => (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={
+        <Loader />
+    }>
         <BlogPostPage {...props} />
     </Suspense>
 );

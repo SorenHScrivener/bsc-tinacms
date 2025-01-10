@@ -417,6 +417,12 @@ export default function PageComponent(
                                                         )
                                                 }, item);
                                             })}
+                                            <Link
+                                                href={`/blog-posts/${entry._sys.basename}?page=${currentPage}`}
+                                                className='text-green-800 text-xl font-semibold hover:opacity-70'
+                                            >
+                                                Keep Reading...
+                                            </Link>
                                         </div>
                                         {image && (<Image
                                             className={clsx(
@@ -433,12 +439,6 @@ export default function PageComponent(
                                             quality={75}
                                         />)}
                                     </div>
-                                    <Link
-                                        href={`/blog-posts/${entry._sys.basename}?page=${currentPage}`}
-                                        className='text-green-800 text-xl font-semibold hover:opacity-70'
-                                    >
-                                        Keep Reading...
-                                    </Link>
                                     <hr className='mt-7' key={`hr-${i}`} />
                                 </div>
                             )
