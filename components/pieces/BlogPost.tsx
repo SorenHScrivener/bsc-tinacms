@@ -25,6 +25,8 @@ interface BlogPostProps {
     };
     query: string;
     page: number;
+    title: string;
+    body: TinaMarkdownContent;
 }
 
 interface Split {
