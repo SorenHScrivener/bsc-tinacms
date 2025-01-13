@@ -127,7 +127,7 @@ export default function PageComponent(
     };
 
     const setCurrentPageNumber = (index: number) => {
-        console.log(index);
+        // console.log(index);
         setCurrentPage(index);
     };
     return (
@@ -386,7 +386,7 @@ export default function PageComponent(
 
                             return (
                                 <div
-                                    data-tina-field={tinaField(entry)}
+                                    // data-tina-field={tinaField(entry, 'title')}
                                     className={
                                     clsx(
                                         "mt-4 mb-8 px-4 md:px-[12rem] max-w-[1350px]",
@@ -418,7 +418,7 @@ export default function PageComponent(
                                                 }, item);
                                             })}
                                             <Link
-                                                href={`/blog-posts/${entry._sys.basename}?page=${currentPage}`}
+                                                href={`/blog-posts/${entry._sys.basename}/${currentPage}`}
                                                 className='text-green-800 text-xl font-semibold hover:opacity-70'
                                             >
                                                 Keep Reading...
@@ -444,7 +444,9 @@ export default function PageComponent(
                             )
                         })}
 
-                        <div className='flex gap-3'>
+                        <div className='flex gap-3'
+                            data-tina-field={tinaField(data.page, 'postDisplayLimit')}>
+                            
                             {Array.from({ length: Math.ceil(posts.length / postDisplayLimit!) }).map((_, index: number) => (
                                 <button
                                     onClick={() => setCurrentPageNumber(index)}

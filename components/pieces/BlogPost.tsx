@@ -94,6 +94,8 @@ const BlogPost: React.FC<BlogPostProps> = (props: {
     
     setUp.page.cover.copy = entry.title;
     setUp.page.cover.isPostPage = true;
+
+    // console.log(props.page);
     return (
         <>
             <Header {...setUp.nav} />

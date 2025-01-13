@@ -15,16 +15,16 @@ const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params, searchParams 
 
     const res = await params;
 
-    const search = await searchParams;
+    // console.log(search);
 
     const post = await client.queries.blogPosts({ relativePath: `${res.post}` });
 
     const result = await client.queries.pageAndNavAndData({ relativePath: "blog-posts.md" });
 
     // @ts-expect-error I don't know what this is
-        post.setUp = result.data;
+    post.setUp = result.data;
     // @ts-expect-error I don't know what this is
-        post.page = search.page;
+    post.page = res.page;
 
     return (
         <BlogPost page={0} {...post} />
