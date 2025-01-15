@@ -10,6 +10,8 @@ links:
     url: content/pages/our-process.md
   - label: Our Strategies
     url: content/pages/our-strategies.md
+  - label: Blog Posts
+    url: content/pages/blog-posts.md
   - label: Contact Us
     url: content/pages/contact-us.md
 ---

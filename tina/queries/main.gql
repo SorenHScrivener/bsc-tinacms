@@ -41,4 +41,39 @@ query pageAndNavAndData($relativePath: String!) {
     }
     ...DataParts
   }
+#   query blogPostsConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: BlogPostsFilter) {
+#   blogPostsConnection(
+#     before: $before
+#     after: $after
+#     first: $first
+#     last: $last
+#     sort: $sort
+#     filter: $filter
+#   ) {
+#     pageInfo {
+#       hasPreviousPage
+#       hasNextPage
+#       startCursor
+#       endCursor
+#     }
+#     totalCount
+#     edges {
+#       cursor
+#       node {
+#         ... on Document {
+#           _sys {
+#             filename
+#             basename
+#             breadcrumbs
+#             path
+#             relativePath
+#             extension
+#           }
+#           id
+#         }
+#         ...BlogPostsParts
+#       }
+#     }
+#   }
+# }
 }
