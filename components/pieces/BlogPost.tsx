@@ -121,12 +121,13 @@ const BlogPost: React.FC<BlogPostProps> = (props: {
                             className='font-auxTitle italic text-3xl mb-1'
                         >{entry.date ? new Date(entry.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Invalid date'}</p>
                     
-                    <div className='relative mt-6 mb-8 px-1 md:px-[12rem] max-w-[1350px] flex'>
+                    <div className='relative mt-6 mb-8 px-1 md:pl-4 md:px-[4rem] lg:px-[12rem] max-w-[1350px] flex'>
                         <div className='self-start sticky top-[40vh] pr-2 z-50 block lg:hidden'>
                             <Link
                                 className='font-mainTitle text-3xl hover:underline'
                                 href={`/blog-posts?page=${props.page}`}>
-                                <ArrowLeftIcon className='h-8 w-8' />
+                                <ArrowLeftIcon className='h-8 w-8 block md:hidden' />
+                                <span className='pr-4 hidden md:block lg:hidden'>Back</span>
                             </Link>
                         </div>
                         <div>

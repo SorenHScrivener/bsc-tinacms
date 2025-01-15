@@ -214,10 +214,10 @@ h2{
   animation: l13 1.5s infinite alternate;
 }
 
-svg.block{
+/* svg.block{
   width:258px;
   height:258px;
-}
+} */
 
 .tree {
   fill: #70D392;

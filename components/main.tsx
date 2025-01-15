@@ -129,6 +129,10 @@ export default function PageComponent(
     const setCurrentPageNumber = (index: number) => {
         // console.log(index);
         setCurrentPage(index);
+        const params = new URLSearchParams(searchParams);
+        params.set('page', index.toString());
+        const newUrl = `${window.location.pathname}?${params.toString()}`;
+        window.history.pushState({}, '', newUrl);
     };
     return (
         <>
@@ -389,7 +393,7 @@ export default function PageComponent(
                                     // data-tina-field={tinaField(entry, 'title')}
                                     className={
                                     clsx(
-                                        "mt-4 mb-8 px-4 md:px-[12rem] max-w-[1350px]",
+                                        "mt-4 mb-8 px-4 md:px-[4rem] lg:px-[12rem] max-w-[1350px]",
                                         {
                                             hidden: entry.isDraft
                                         }
@@ -400,7 +404,7 @@ export default function PageComponent(
                                     <div className={
                                         clsx(
                                             'my-8 relative gap-4',
-                                            { 'grid lg:grid-cols-2': includeMedia }
+                                            { 'grid md:grid-cols-2': includeMedia }
                                         )
                                     }
                                     >
