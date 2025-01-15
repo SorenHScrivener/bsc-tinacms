@@ -129,7 +129,7 @@ export default function PageComponent(
     const setCurrentPageNumber = (index: number) => {
         // console.log(index);
         setCurrentPage(index);
-        const params = new URLSearchParams(searchParams);
+        const params = new URLSearchParams(searchParams ?? undefined);
         params.set('page', index.toString());
         const newUrl = `${window.location.pathname}?${params.toString()}`;
         window.history.pushState({}, '', newUrl);
