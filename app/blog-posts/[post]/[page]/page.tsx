@@ -15,8 +15,6 @@ const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params, searchParams 
 
     const res = await params;
 
-    // console.log(search);
-
     const post = await client.queries.blogPosts({ relativePath: `${res.post}` });
 
     const result = await client.queries.pageAndNavAndData({ relativePath: "blog-posts.md" });

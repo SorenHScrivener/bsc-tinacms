@@ -214,7 +214,7 @@ h2{
   animation: l13 1.5s infinite alternate;
 }
 
-svg {
+svg.block{
   width:258px;
   height:258px;
 }
