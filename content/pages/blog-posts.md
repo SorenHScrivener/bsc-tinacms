@@ -6,7 +6,6 @@ cover:
   coverImage: /Covers/adrien-milcent-n3bHMAPh6c4-unsplash.jpg
   brightness: 69
 sections:
-  - id: Id-054168523811
   - sectionTitle: >-
       2025 Predictions for Alternative Investments: Emerging Trends and
       Opportunities
