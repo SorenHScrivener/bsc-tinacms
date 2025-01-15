@@ -107,13 +107,13 @@ const BlogPost: React.FC<BlogPostProps> = (props: {
                 <Shifter>
                     <Cover {...setUp.page.cover} />
                 </Shifter>
-                <div className='md:pt-12 sticky top-[40vh] z-50 pl-8 lg:block hidden'>
+                {/* <div className='md:pt-12 sticky top-[40vh] z-50 pl-8 lg:block hidden'>
                     <Link
                         className='font-mainTitle text-3xl hover:underline'
                         href={`/blog-posts?page=${props.page}`}>
                         All Posts
                     </Link>
-                </div>
+                </div> */}
 
                 <div className='flex flex-col items-center my-4'>
                         <p
@@ -122,14 +122,14 @@ const BlogPost: React.FC<BlogPostProps> = (props: {
                         >{entry.date ? new Date(entry.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Invalid date'}</p>
                     
                     <div className='relative mt-6 mb-8 px-1 md:pl-4 md:px-[4rem] lg:px-[12rem] max-w-[1350px] flex'>
-                        <div className='self-start sticky top-[40vh] pr-2 z-50 block lg:hidden'>
+                        {/* <div className='self-start sticky top-[40vh] pr-2 z-50 block lg:hidden'>
                             <Link
                                 className='font-mainTitle text-3xl hover:underline'
                                 href={`/blog-posts?page=${props.page}`}>
                                 <ArrowLeftIcon className='h-8 w-8 block md:hidden' />
                                 <span className='pr-4 hidden md:block lg:hidden'>Back</span>
                             </Link>
-                        </div>
+                        </div> */}
                         <div>
                             <hr className='w-full mb-2' />
                             {entry.body?.map((block, i: number) => {
