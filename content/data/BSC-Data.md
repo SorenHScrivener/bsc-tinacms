@@ -5,8 +5,8 @@ email:
   label: Investor@BackStory-Cap.com
   url: Investor@BackStory-Cap.com
 phone:
-  label: 877.680.2225
-  url: 877.680.2225
+  label: 770.815.6463
+  url: 770.815.6463
 address:
   label: 1100 Abernathy Rd | Suite 800 | Atlanta | GA 30328
   url: >-
