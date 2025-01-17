@@ -83,18 +83,25 @@ const BlogPost: React.FC<BlogPostProps> = ({
 
     const sections = data.page.sections;
     let currentPost;
-    sections.forEach(element => {
-        element.content.forEach(block => {
-            if (
-                block.__typename === 'PageSectionsContentBlogPosts'
-            ) {
-                block.posts.filter(post => post.id === props.postID).forEach(post => {
-                    currentPost = post;
-                })
-            }
-        })
-    });
-    cover.copy = currentPost!.title;
+    if (sections) {
+        sections.forEach(element => {
+            element.content.forEach(block => {
+                if (
+                    block.__typename === 'PageSectionsContentBlogPosts'
+                    &&
+                    block.posts
+                ) {
+                    block.posts.filter(post => post.id === props.postID).forEach(post => {
+                        currentPost = post;
+                    })
+                }
+            })
+        });
+        cover.copy = currentPost!.title;
+    } else {
+        window.location.href = '/blog-posts';
+        return <h1>Redirecting...</h1>
+    }
     ////////Add in title ref for each for accessibility
     return (
         <>
