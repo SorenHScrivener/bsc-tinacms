@@ -13,7 +13,7 @@ sections:
     content:
       - postDisplayLimit: 2
         posts:
-          - title: Blog Post Title
+          - title: Why Self-Storage Investments Are a Smart Choice
             content:
               - copy: >
                   ### Why Self-Storage Investments Are a Smart Choice
@@ -119,7 +119,7 @@ sections:
                   today to learn how you can add this dynamic asset class to
                   your investment portfolio.
                 _template: simpleCopy
-            date: 2025-01-17T00:00:00.000Z
+            date: 2025-01-17T06:00:00.000Z
             includeMedia: false
             id: Id-334707975940
           - title: >-
