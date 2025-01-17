@@ -127,9 +127,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
                                                         <h2 className='font-semibold text-3xl' data-tina-field={tinaField(block, 'title')}>{block.title}</h2>
                                                         <TinaMarkdown content={block.text} components={
                                                             {
-                                                                // @ts-expect-error I don't know what this is
                                                                 h3: (props) => <h3 className='font-semibold text-2xl' {...props} />,
-                                                                // @ts-expect-error I don't know what this is
                                                                 p: (props) => <p {...props} />,
                                                             }
                                                         } />
@@ -153,11 +151,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
                                                     <h2 className='font-semibold text-3xl' data-tina-field={tinaField(block, 'title')}>{block.title}</h2>
                                                     <TinaMarkdown content={block.copy} components={
                                                         {
-                                                            // @ts-expect-error I don't know what this is
                                                             h3: (props) => <h3 className='font-semibold text-2xl' {...props} />,
-                                                            // @ts-expect-error I don't know what this is
                                                             p: (props) => <p {...props} />,
-                                                            // @ts-expect-error I don't know what this is
                                                             a: (props) => <a {...props} />
                                                         }
                                                     } />
