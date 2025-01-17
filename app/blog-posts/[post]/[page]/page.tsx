@@ -7,25 +7,24 @@ import BlogPost from "@/components/pieces/BlogPost";
 import Loader from "@/components/others/loader";
 
 interface BlogPostPageProps {
-    params: Promise<{  post: string }>;
-    searchParams: Promise<{ page: string }>;
+    params: Promise<{ page: string, post: string }>;
+    // searchParams: Promise<{  post: string }>;
 }
 
-const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params, searchParams }) => {
+const BlogPostPage: React.FC<BlogPostPageProps> = async ({ params }) => {
 
     const res = await params;
-
-    const post = await client.queries.blogPosts({ relativePath: `${res.post}` });
 
     const result = await client.queries.pageAndNavAndData({ relativePath: "blog-posts.md" });
 
     // @ts-expect-error I don't know what this is
-    post.setUp = result.data;
+    result.pageNumber = res.page;
     // @ts-expect-error I don't know what this is
-    post.page = res.page;
+    result.postID = res.post;
 
     return (
-        <BlogPost page={0} {...post} />
+        // @ts-expect-error I don't know what this is
+        <BlogPost page={0} {...result} />
     );
 };
 

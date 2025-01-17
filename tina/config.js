@@ -18,6 +18,59 @@ const lorem = new LoremIpsum({
   }
 });
 
+const sharedTemplates = [
+  {
+    name: "simpleCopy",
+    label: "Simple Copy",
+    ui: {
+      itemProps: (item) => {
+        return { label: item.subTitle }
+      },
+    },
+    fields: [
+      {
+        type: 'boolean',
+        name: 'isTextCentered',
+        label: 'Center Text?',
+        toggleLabels: {
+          true: 'yes',
+          false: 'No',
+        },
+        ui: {
+          component: "toggle"
+        }
+      },
+      {
+        type: "string",
+        name: "fontSizeLarge",
+        label: "Font Size (Large Screen)",
+        options: [
+          { value: "text-base", label: "Base" },
+          { value: "text-lg", label: "Large" },
+          { value: "text-xl", label: "Extra Large" },
+          { value: "text-2xl", label: "2X Large" },
+          { value: "text-3xl", label: "3X Large" },
+        ],
+        ui: {
+          component: "select",
+        },
+      },
+      {
+        type: "string",
+        name: "subTitle",
+        label: "Subtitle[optional]",
+      },
+      {
+        type: "rich-text",
+        // toolbarOverride: [],
+        name: "copy",
+        label: "Copy",
+        isBody: true,
+      }
+    ]
+  }
+];
+
 import { Slider } from "./Slider";
 // import { stringify } from "querystring";
 
@@ -181,113 +234,8 @@ export default defineConfig({
                 name: "content",
                 label: "Content",
                 list: true,
-                templates: [
-                  {
-                    name: "simpleCopy",
-                    label: "Simple Copy",
-                    ui: {
-                      itemProps: (item) => {
-                        return { label: item.subTitle }
-                      },
-                    },
-                    fields: [
-                      {
-                        type: 'boolean',
-                        name: 'isTextCentered',
-                        label: 'Center Text?',
-                        toggleLabels: {
-                          true: 'yes',
-                          false: 'No',
-                        },
-                        ui: {
-                          component: "toggle"
-                        }
-                      },
-                      {
-                        type: "string",
-                        name: "fontSizeLarge",
-                        label: "Font Size (Large Screen)",
-                        options: [
-                          { value: "text-base", label: "Base" },
-                          { value: "text-lg", label: "Large" },
-                          { value: "text-xl", label: "Extra Large" },
-                          { value: "text-2xl", label: "2X Large" },
-                          { value: "text-3xl", label: "3X Large" },
-                        ],
-                        ui: {
-                          component: "select",
-                        },
-                      },
-                      {
-                        type: "string",
-                        name: "subTitle",
-                        label: "Subtitle[optional]",
-                      },
-                      {
-                        type: "rich-text",
-                        // toolbarOverride: [],
-                        name: "copy",
-                        label: "Copy",
-                        isBody: true,
-                      }
-                    ]
-                  },
-                  {
-                    name: "iconsArray",
-                    label: "Icons Array",
-                    ui: {
-                      itemProps: (item) => {
-                        return { label: item.subTitle }
-                      },
-                    },
-                    fields: [
-                      {
-                        type: 'boolean',
-                        name: 'addStatic',
-                        label: 'Add Static?',
-                        ui: {
-                          component: 'toggle',
-                          toggleLabels: {
-                            true: 'yes',
-                            false: 'No',
-                          },
-                        }
-                      },
-                      {
-                        type: "string",
-                        name: "subTitle",
-                        label: "Subtitle[optional]",
-                      },
-                      {
-                        type: "object",
-                        name: "icon",
-                        label: "Icon",
-                        list: true,
-                        ui: {
-                          itemProps: (item) => {
-                            return { label: item.label }
-                          },
-                          defaultItem: {
-                            label: "[business Type]",
-                            image: "/Icons/first.webp"
-                          },
-                          // component:
-                        },
-                        fields: [
-                          {
-                            type: "string",
-                            name: "label",
-                            label: "label",
-                          },
-                          {
-                            type: "image",
-                            name: "image",
-                            label: "Image",
-                          }
-                        ]
-                      }
-                    ]
-                  },
+                templates: [   
+                  ...sharedTemplates,
                   {
                     name: "splitContent",
                     label: "Split Content",
@@ -346,6 +294,62 @@ export default defineConfig({
                         label: "Copy",
                         isBody: true,
                       },
+                    ]
+                  },
+                  {
+                    name: "iconsArray",
+                    label: "Icons Array",
+                    ui: {
+                      itemProps: (item) => {
+                        return { label: item.subTitle }
+                      },
+                    },
+                    fields: [
+                      {
+                        type: 'boolean',
+                        name: 'addStatic',
+                        label: 'Add Static?',
+                        ui: {
+                          component: 'toggle',
+                          toggleLabels: {
+                            true: 'yes',
+                            false: 'No',
+                          },
+                        }
+                      },
+                      {
+                        type: "string",
+                        name: "subTitle",
+                        label: "Subtitle[optional]",
+                      },
+                      {
+                        type: "object",
+                        name: "icon",
+                        label: "Icon",
+                        list: true,
+                        ui: {
+                          itemProps: (item) => {
+                            return { label: item.label }
+                          },
+                          defaultItem: {
+                            label: "[business Type]",
+                            image: "/Icons/first.webp"
+                          },
+                          // component:
+                        },
+                        fields: [
+                          {
+                            type: "string",
+                            name: "label",
+                            label: "label",
+                          },
+                          {
+                            type: "image",
+                            name: "image",
+                            label: "Image",
+                          }
+                        ]
+                      }
                     ]
                   },
                   {
@@ -580,16 +584,183 @@ export default defineConfig({
                       }
                     ]
                   },
+                  {
+                    type: "object",
+                    name: "blogPosts",
+                    label: "Blog Posts",
+                    ui: {
+                      itemProps: (item) => {
+                        return { label: item.title }
+                      },
+                      defaultItem() {
+                        return {
+                          title: 'Blog Post Title',
+                          date: new Date().toLocaleDateString("en"),
+                          draft: false,
+                          includeMedia: false
+                        }
+                      }
+                    },
+                    fields: [
+                      {
+                        type: "number",
+                        name: "postDisplayLimit",
+                        label: "Post Display Limit",
+                        description: "Set the number of posts to display on the page, if applicable",
+                      },
+                      {
+                        name: "posts",
+                        label: "Posts",
+                        type: "object",
+                        list: true,
+                        ui: {
+                          itemProps: (item) => {
+                            return { label: item.title }
+                          },
+                          defaultItem() {
+                            return {
+                              title: 'Blog Post Title',
+                              date: new Date().toLocaleDateString("en"),
+                              draft: false,
+                              includeMedia: false,
+                              id: 'Id-' + id
+                            }
+                          }
+                        },
+                        fields: [
+                          {
+                            type: "string",
+                            name: "title",
+                            label: "Title",
+                            isTitle: true,
+                            required: true
+                          },
+                          {
+                            type: "object",
+                            name: "content",
+                            label: "Content",
+                            list: true,
+                            ui: {
+                              itemProps: (item) => {
+                                return { label: item.title }
+                              }
+                            },
+                            templates: [
+                              {
+                                type: "object",
+                                name: "simpleCopy",
+                                label: "Simple Copy",
+                                list: true,
+                                // ui: {
+                                //   itemProps: (item) => {
+                                //     return { label: item.title && item.title.length > 0 ? item.title : 'untitled' }
+                                //   }
+                                // },
+                                fields: [
+                                  // {
+                                  //   type: "string",
+                                  //   name: "title",
+                                  //   label: "title[optional]"
+                                  // },
+                                  {
+                                    type: "rich-text",
+                                    name: "copy",
+                                    label: "Text",
+                                    isBody: true,
+                                  },
+                                ]
+                              },
+                              {
+                                type: "object",
+                                name: "splitContent",
+                                label: "Split Content",
+                                list: true,
+                                fields: [
+                                  // {
+                                  //   type: "string",
+                                  //   name: "title",
+                                  //   label: "title[optional]"
+                                  // },
+                                  {
+                                    type: "rich-text",
+                                    name: "text",
+                                    label: "Text",
+                                    isBody: true,
+                                    required: true
+                                  },
+                                  {
+                                    type: "image",
+                                    name: "image",
+                                    label: "Image",
+                                  },
+                                  {
+                                    type: "string",
+                                    name: "imageWidth",
+                                    label: "Image Dimensions[Width]",
+                                  },
+                                  {
+                                    type: "string",
+                                    name: "imageHeight",
+                                    label: "Image Dimensions[Height]",
+                                  },
+                                  {
+                                    type: "string",
+                                    name: "orientation",
+                                    label: "Orientation",
+                                    options: ["img-txt", "txt-img"],
+                                    required: true
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            type: "datetime",
+                            name: "date",
+                            label: "Date",
+                          },
+                          {
+                            name: 'includeMedia',
+                            label: 'Include Media in intial view?',
+                            type: 'boolean',
+                            description: 'If this is checked the post will have media in the initial view if media is in the first section',
+                            ui: {
+                              component: 'toggle',
+                              toggleLabels: {
+                                true: 'yes',
+                                false: 'No',
+                              }
+                            }
+                          },
+                          {
+                            name: 'isDraft',
+                            label: 'Draft',
+                            type: 'boolean',
+                            description: 'If this is checked the post will not be published',
+                            ui: {
+                              component: 'toggle',
+                              toggleLabels: {
+                                true: 'yes',
+                                false: 'No',
+                              }
+                            }
+                          },
+                          {
+                            type: 'string',
+                            name: 'id',
+                            label: 'ID',
+                            // ui: {
+                            //   component: 'hidden'
+                            // }
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 ],
               }
             ],
           },
-          {
-            type: "number",
-            name: "postDisplayLimit",
-            label: "Post Display Limit",
-            description: "Set the number of posts to display on the page, if applicable",
-          }
         ]
       },
       {
@@ -737,117 +908,117 @@ export default defineConfig({
           }
         ]
       },
-      {
-        path: "content/blog-posts",
-        name: "blogPosts",
-        label: "Blog Posts",
-        format: "mdx",
-        ui: {
-          itemProps: (item) => {
-            return { label: item.title }
-          },
-          defaultItem() {
-            return {
-              title: 'Blog Post Title',
-              date: new Date().toLocaleDateString("en"),
-              draft: false,
-              includeMedia: false
-            }
-          }
-        },
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true
-          },
-          {
-            type: "datetime",
-            name: "date",
-            label: "Date",
-          },
-          {
-            name: 'body',
-            label: 'Body',
-            type: 'object',
-            list: true,
-            fields: [
-              {
-                type: "rich-text",
-                name: "content",
-                label: "Content",
-                isBody: true,
-                templates: [
-                  {
-                    name: "splitContent",
-                    label: "Split Content",
-                    fields: [
-                      {
-                        type: "image",
-                        name: "image",
-                        label: "Image",
-                        required: true
-                      },
-                      {
-                        type: "string",
-                        name: "imageWidth",
-                        label: "Image Dimensions[Width]",
-                      },
-                      {
-                        type: "string",
-                        name: "imageHeight",
-                        label: "Image Dimensions[Height]",
-                      },
-                      {
-                        type: "rich-text",
-                        name: "copy",
-                        label: "Copy",
-                        isBody: true,
-                        required: true
-                      },
-                      {
-                        type: "string",
-                        name: "orientation",
-                        label: "Orientation",
-                        options: ["img-txt", "txt-img"],
-                        required: true
-                      }
-                    ]
-                  }
-                ]
-              },
-            ]
-          },
-          {
-            name: 'includeMedia',
-            label: 'Include Media in intial view?',
-            type: 'boolean',
-            description: 'If this is checked the post will have media in the initial view if media is in the first section',
-            ui: {
-              component: 'toggle',
-              toggleLabels: {
-                true: 'yes',
-                false: 'No',
-              }
-            }
-          },
-          {
-            name: 'isDraft',
-            label: 'Draft',
-            type: 'boolean',
-            description: 'If this is checked the post will not be published',
-            ui: {
-              component: 'toggle',
-              toggleLabels: {
-                true: 'yes',
-                false: 'No',
-              }
-            }
-          }
-        ]
-      }
+      // {
+      //   path: "content/blog-posts",
+      //   name: "blogPosts",
+      //   label: "Blog Posts",
+      //   format: "mdx",
+      //   ui: {
+      //     itemProps: (item) => {
+      //       return { label: item.title }
+      //     },
+      //     defaultItem() {
+      //       return {
+      //         title: 'Blog Post Title',
+      //         date: new Date().toLocaleDateString("en"),
+      //         draft: false,
+      //         includeMedia: false
+      //       }
+      //     }
+      //   },
+      //   fields: [
+      //     {
+      //       type: "string",
+      //       name: "title",
+      //       label: "Title",
+      //       isTitle: true,
+      //       required: true
+      //     },
+      //     {
+      //       type: "datetime",
+      //       name: "date",
+      //       label: "Date",
+      //     },
+      //     {
+      //       name: 'body',
+      //       label: 'Body',
+      //       type: 'object',
+      //       list: true,
+      //       fields: [
+      //         {
+      //           type: "rich-text",
+      //           name: "content",
+      //           label: "Content",
+      //           isBody: true,
+      //           templates: [
+      //             {
+      //               name: "splitContent",
+      //               label: "Split Content",
+      //               fields: [
+      //                 {
+      //                   type: "image",
+      //                   name: "image",
+      //                   label: "Image",
+      //                   required: true
+      //                 },
+      //                 {
+      //                   type: "string",
+      //                   name: "imageWidth",
+      //                   label: "Image Dimensions[Width]",
+      //                 },
+      //                 {
+      //                   type: "string",
+      //                   name: "imageHeight",
+      //                   label: "Image Dimensions[Height]",
+      //                 },
+      //                 {
+      //                   type: "rich-text",
+      //                   name: "copy",
+      //                   label: "Copy",
+      //                   isBody: true,
+      //                   required: true
+      //                 },
+      //                 {
+      //                   type: "string",
+      //                   name: "orientation",
+      //                   label: "Orientation",
+      //                   options: ["img-txt", "txt-img"],
+      //                   required: true
+      //                 }
+      //               ]
+      //             }
+      //           ]
+      //         },
+      //       ]
+      //     },
+      //     {
+      //       name: 'includeMedia',
+      //       label: 'Include Media in intial view?',
+      //       type: 'boolean',
+      //       description: 'If this is checked the post will have media in the initial view if media is in the first section',
+      //       ui: {
+      //         component: 'toggle',
+      //         toggleLabels: {
+      //           true: 'yes',
+      //           false: 'No',
+      //         }
+      //       }
+      //     },
+      //     {
+      //       name: 'isDraft',
+      //       label: 'Draft',
+      //       type: 'boolean',
+      //       description: 'If this is checked the post will not be published',
+      //       ui: {
+      //         component: 'toggle',
+      //         toggleLabels: {
+      //           true: 'yes',
+      //           false: 'No',
+      //         }
+      //       }
+      //     }
+      //   ]
+      // }
     ],
   },
 });
