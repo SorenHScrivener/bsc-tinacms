@@ -94,11 +94,12 @@ export default function BlogPosts({
                             }
                         }
                     });
-                } else {
+                } else if(combinedText.length > 0) {
                     combinedText.split('/').forEach((sentence: string) => {
                         pArray.push(sentence.trim());
                     });
                 }
+
                 return (
                     <div
                         data-tina-field={tinaField(post)}
@@ -121,9 +122,8 @@ export default function BlogPosts({
                             )
                         }
                         >
-                            <div data-tina-field={tinaField(post.content[0])} className='my-8 flex flex-col gap-4'>
+                        {pArray.length > 0 && (<div data-tina-field={tinaField(post.content[0])} className='my-8 flex flex-col gap-4'>
                                 {pArray.map((item, i) => {
-                                    console.log(text[i].type);
                                     if (text[i].type === 'h3') {
                                         return <h3 className='font-semibold text-2xl' key={i}>{item}</h3>;
                                     } else {
@@ -136,7 +136,7 @@ export default function BlogPosts({
                                 >
                                     Keep Reading...
                                 </Link>
-                            </div>
+                        </div>)}
                             {image && (<Image
                                 className={clsx(
                                     'max-w-[80%] self-center justify-self-center',
