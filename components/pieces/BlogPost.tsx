@@ -45,7 +45,7 @@ interface BlogPostProps {
                 }>;
             }>;
         };
-        
+
         data: {
             title: string;
             links: Array<{
@@ -63,7 +63,7 @@ interface BlogPostProps {
     postID: string;
 }
 
-interface Block { 
+interface Block {
     __typename: string;
     title: string;
     copy: TinaMarkdownContent;
@@ -99,79 +99,84 @@ const BlogPost: React.FC<BlogPostProps> = ({
     return (
         <>
             <Header {...data.nav} />
-                <main>
-                    <h1 className="sr-only">Blog Post Page for {currentPost!.title}</h1>
-                    <Shifter>
-                        <Cover {...cover} isPostPage={false} />
-                    </Shifter>
-                    <div className='flex flex-col items-center my-4'>
-                        <p
-                            data-tina-field={tinaField(currentPost, 'date')}
-                            className='font-auxTitle italic text-3xl mb-1'
-                        >{currentPost!.date ? new Date(currentPost!.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Invalid date'}</p>
-                        <div className='relative mt-6 mb-8 px-6 md:px-[4rem] lg:px-[12rem] max-w-[1350px] flex'>
-                            <div>
-                                <hr className='w-full mb-2' />
-                                {currentPost!.content?.map((block:Block, i: number) => {
-                                    const imageWidth = !isNaN(block.imageWidth) ? block.imageWidth : 0;
-                                    const imageHeight = !isNaN(block.imageHeight) ? block.imageHeight : 0;
-                                    const orientation = block.orientation;
-                                    return (
-                                        <React.Fragment key={i}>
-                                            <div data-tina-field={tinaField(block)}>
-                                                {block.__typename === 'PageSectionsContentBlogPostsPostsContentSplitContent' ? (
-                                                    <div className={clsx(
-                                                        'my-8 relative grid md:grid-cols-2 min-h-[200px] gap-4'
-                                                    )}>
-                                                        <div className='flex flex-col gap-4'>
-                                                            <h2 className='font-semibold text-3xl' data-tina-field={tinaField(block, 'title')}>{block.title}</h2>
-                                                            <TinaMarkdown content={block.text} components={
-                                                                {
-                                                                    h3: (props) => <h3 className='font-semibold text-2xl' {...props} />,
-                                                                    p: (props) => <p {...props} />,
-                                                                }
-                                                            } />
-                                                        </div>
-                                                        <Image
-                                                            className={clsx(
-                                                                'max-w-[80%] self-center justify-self-center',
-                                                                {
-                                                                    '-order-1': orientation === 'img-txt',
-                                                                }
-                                                            )}
-                                                            {...imageWidth && imageHeight ? { width: imageWidth, height: imageHeight } : { fill: true }}
-                                                            src={block.image || fillerImg}
-                                                            alt=''
-                                                            loading='lazy'
-                                                            quality={75}
-                                                        />
-                                                    </div>
-                                                ) : (
+            <main>
+                <h1 className="sr-only">Blog Post Page for {currentPost!.title}</h1>
+                <Shifter>
+                    <Cover {...cover} isPostPage={false} />
+                </Shifter>
+                <div className='flex flex-col items-center my-4'>
+                    <p
+                        data-tina-field={tinaField(currentPost, 'date')}
+                        className='font-auxTitle italic text-3xl mb-1'
+                    >{currentPost!.date ? new Date(currentPost!.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Invalid date'}</p>
+                    <div className='relative mt-6 mb-8 px-6 md:px-[4rem] lg:px-[12rem] max-w-[1350px] flex'>
+                        <div>
+                            <hr className='w-full mb-2' />
+                            {currentPost!.content?.map((block: Block, i: number) => {
+                                const imageWidth = !isNaN(block.imageWidth) ? block.imageWidth : 0;
+                                const imageHeight = !isNaN(block.imageHeight) ? block.imageHeight : 0;
+                                const orientation = block.orientation;
+                                return (
+                                    <React.Fragment key={i}>
+                                        <div data-tina-field={tinaField(block)}>
+                                            {block.__typename === 'PageSectionsContentBlogPostsPostsContentSplitContent' ? (
+                                                <div className={clsx(
+                                                    'my-8 relative grid md:grid-cols-2 min-h-[200px] gap-4'
+                                                )}>
                                                     <div className='flex flex-col gap-4'>
                                                         <h2 className='font-semibold text-3xl' data-tina-field={tinaField(block, 'title')}>{block.title}</h2>
-                                                        <TinaMarkdown content={block.copy} components={
+                                                        <TinaMarkdown content={block.text} components={
                                                             {
+                                                                // @ts-expect-error I don't know what this is
                                                                 h3: (props) => <h3 className='font-semibold text-2xl' {...props} />,
+                                                                // @ts-expect-error I don't know what this is
                                                                 p: (props) => <p {...props} />,
-                                                                a: (props) => <a {...props} />,
-                                                            }        
+                                                            }
                                                         } />
                                                     </div>
-                                                )}
-                                            </div>
-                                        </React.Fragment>
-                                    )
-                                })}
-                                {/* {entry.body?.map((block, i: number) => {
+                                                    <Image
+                                                        className={clsx(
+                                                            'max-w-[80%] self-center justify-self-center',
+                                                            {
+                                                                '-order-1': orientation === 'img-txt',
+                                                            }
+                                                        )}
+                                                        {...imageWidth && imageHeight ? { width: imageWidth, height: imageHeight } : { fill: true }}
+                                                        src={block.image || fillerImg}
+                                                        alt=''
+                                                        loading='lazy'
+                                                        quality={75}
+                                                    />
+                                                </div>
+                                            ) : (
+                                                <div className='flex flex-col gap-4'>
+                                                    <h2 className='font-semibold text-3xl' data-tina-field={tinaField(block, 'title')}>{block.title}</h2>
+                                                    <TinaMarkdown content={block.copy} components={
+                                                        {
+                                                            // @ts-expect-error I don't know what this is
+                                                            h3: (props) => <h3 className='font-semibold text-2xl' {...props} />,
+                                                            // @ts-expect-error I don't know what this is
+                                                            p: (props) => <p {...props} />,
+                                                            // @ts-expect-error I don't know what this is
+                                                            a: (props) => <a {...props} />
+                                                        }
+                                                    } />
+                                                </div>
+                                            )}
+                                        </div>
+                                    </React.Fragment>
+                                )
+                            })}
+                            {/* {entry.body?.map((block, i: number) => {
                                 return (
                                     <div data-tina-field={tinaField(block, 'content')} key={i}>
                                         <TinaMarkdown key={i} content={block?.content} components={components} />
                                     </div>
                                 )
                             })} */}
-                            </div>
                         </div>
                     </div>
+                </div>
             </main>
             <Footer {...{ ...data.data, __typename: "Data", id: "", dataTitle: "", _sys: { __typename: "SystemInfo", filename: "", basename: "", breadcrumbs: [], path: "", relativePath: "", extension: "" } }} />
         </>
