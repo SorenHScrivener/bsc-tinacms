@@ -102,7 +102,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
             <main>
                 <h1 className="sr-only">Blog Post Page for {currentPost!.title}</h1>
                 <Shifter>
-                    <Cover {...cover} isPostPage={false} />
+                    <Cover {...cover} isPostPage={true} />
                 </Shifter>
                 <div className='flex flex-col items-center my-4'>
                     <p
