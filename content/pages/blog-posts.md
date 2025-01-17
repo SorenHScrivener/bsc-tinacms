@@ -11,7 +11,7 @@ sections:
     isTitleHidden: true
     id: Id-440321141969
     content:
-      - postDisplayLimit: 2
+      - postDisplayLimit: 3
         posts:
           - title: Why Self-Storage Investments Are a Smart Choice
             content:
