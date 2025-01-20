@@ -136,20 +136,29 @@ sections:
                   investment landscape this year.
 
 
-                  ### 1. Sustainability Takes Center Stage
+                  ### 1. Resilient Real Estate Opportunities
 
 
-                  Investors are increasingly prioritizing Environmental, Social,
-                  and Governance (ESG) criteria across all asset classes. In
-                  2025, expect alternative investments to follow this
-                  trajectory, with significant capital flowing into renewable
-                  energy projects, carbon credits, and sustainable real estate.
-                  Impact investing—which focuses on generating positive social
-                  and environmental outcomes alongside financial returns—will
-                  likely see exponential growth.
+                  While commercial real estate has faced headwinds in recent
+                  years, niche sectors such as self-storage, industrial
+                  properties, and senior housing remain strong performers. In
+                  2025, these asset classes will continue to attract attention
+                  due to their resilience and ability to adapt to changing
+                  consumer behaviors and demographics.
 
 
-                  ### 2. Tokenization Expands Access
+                  ### 2. The Rise of Private Credit
+
+
+                  As banks tighten lending standards, private credit markets are
+                  poised to grow. Institutional and retail investors alike are
+                  showing interest in private debt funds offering attractive
+                  yields. This trend is fueled by higher interest rates, making
+                  private lending an appealing alternative for borrowers and
+                  lenders.
+
+
+                  ### 3. Tokenization Expands Access
 
 
                   Blockchain technology continues to disrupt traditional
@@ -161,29 +170,7 @@ sections:
                   traditionally illiquid markets.
 
 
-                  ### 3. The Rise of Private Credit
-
-
-                  As banks tighten lending standards, private credit markets are
-                  poised to grow. Institutional and retail investors alike are
-                  showing interest in private debt funds offering attractive
-                  yields. This trend is fueled by higher interest rates, making
-                  private lending an appealing alternative for borrowers and
-                  lenders.
-
-
-                  ### 4. Resilient Real Estate Opportunities
-
-
-                  While commercial real estate has faced headwinds in recent
-                  years, niche sectors such as self-storage, industrial
-                  properties, and senior housing remain strong performers. In
-                  2025, these asset classes will continue to attract attention
-                  due to their resilience and ability to adapt to changing
-                  consumer behaviors and demographics.
-
-
-                  ### 5. The Fine Art and Collectibles Boom
+                  ### 4. The Fine Art and Collectibles Boom
 
 
                   The fine art market is evolving as fractional ownership gains
@@ -194,7 +181,7 @@ sections:
                   provide both diversification and a hedge against inflation.
 
 
-                  ### 6. Digital Assets Beyond Cryptocurrency
+                  ### 5. Digital Assets Beyond Cryptocurrency
 
 
                   While the volatility of cryptocurrencies remains a concern,
@@ -205,7 +192,7 @@ sections:
                   become more integrated into mainstream portfolios.
 
 
-                  ### 7. Focus on Emerging Markets
+                  ### 6. Focus on Emerging Markets
 
 
                   Emerging markets in Asia, Africa, and Latin America are
@@ -216,7 +203,7 @@ sections:
                   economies.
 
 
-                  ### 8. AI and Tech-Driven Investment Strategies
+                  ### 7. AI and Tech-Driven Investment Strategies
 
 
                   Artificial intelligence is revolutionizing portfolio
@@ -227,7 +214,7 @@ sections:
                   streamline investor onboarding processes.
 
 
-                  ### 9. Heightened Risk Awareness
+                  ### 8. Heightened Risk Awareness
 
 
                   Global economic uncertainties, geopolitical tensions, and
