@@ -13,6 +13,10 @@ sections:
     content:
       - postDisplayLimit: 4
         posts:
+          - title: 'Q1 2025 Market Analysis: Alternative Investments'
+            date: 2025-04-09T00:00:00.000Z
+            includeMedia: false
+            id: Id-428109103321
           - title: Why Self-Storage Investments Are a Smart Choice
             content:
               - copy: >
