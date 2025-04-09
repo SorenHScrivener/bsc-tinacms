@@ -11,13 +11,16 @@ sections:
     isTitleHidden: true
     id: Id-440321141969
     content:
-      - postDisplayLimit: 4
+      - postDisplayLimit: 6
         posts:
           - title: 'Q1 2025 Market Analysis: Alternative Investments'
             content:
               - copy: >
                   Q1 2025 Market Analysis: Alternative Investments
-                   Focus: Private Placements in Multifamily & Self-Storage Real Estate
+
+                  Focus: Private Placements in Multifamily & Self-Storage Real
+                  Estate
+
 
                   ***
 
@@ -43,11 +46,11 @@ sections:
 
 
                   * Interest Rates:
-                     The Fed paused further hikes in Q1, holding the federal funds rate at 5.25%-5.50%. This pause created more underwriting clarity, but spreads remain wide, particularly for transitional or non-core assets.
+                    The Fed paused further hikes in Q1, holding the federal funds rate at 5.25%-5.50%. This pause created more underwriting clarity, but spreads remain wide, particularly for transitional or non-core assets.
                   * Debt Markets:
-                     Regional bank retrenchment and conservative underwriting standards have made agency debt (Fannie/Freddie) and private credit funds the primary sources for multifamily, while self-storage increasingly relies on bridge financing or sponsor equity top-ups.
+                    Regional bank retrenchment and conservative underwriting standards have made agency debt (Fannie/Freddie) and private credit funds the primary sources for multifamily, while self-storage increasingly relies on bridge financing or sponsor equity top-ups.
                   * Inflation & Rent Growth:
-                     Inflation has moderated to sub-3%, but operating costs (insurance, taxes, labor) remain elevated—particularly impacting multifamily margins. In contrast, self-storage operators have demonstrated greater pricing power due to dynamic rate adjustments and lower operating costs.
+                    Inflation has moderated to sub-3%, but operating costs (insurance, taxes, labor) remain elevated—particularly impacting multifamily margins. In contrast, self-storage operators have demonstrated greater pricing power due to dynamic rate adjustments and lower operating costs.
 
                   ***
 
@@ -56,11 +59,11 @@ sections:
 
 
                   * Transaction Volume:
-                     Multifamily deal flow picked up modestly in Q1, driven by distressed sellers, recapitalizations, and sponsors seeking equity top-offs due to capital stack shortfalls. Value-add and core-plus remain the dominant strategies for private placements.
+                    Multifamily deal flow picked up modestly in Q1, driven by distressed sellers, recapitalizations, and sponsors seeking equity top-offs due to capital stack shortfalls. Value-add and core-plus remain the dominant strategies for private placements.
                   * Investor Appetite:
-                     LPs continue to show interest in multifamily due to its long-term fundamentals, but underwriting is more conservative:
+                    LPs continue to show interest in multifamily due to its long-term fundamentals, but underwriting is more conservative:
                   * Equity Structures:
-                     Creative structuring—such as preferred equity, co-GP programs, and syndications via RIA networks—has become more common. The average equity raise timeline has extended, reflecting increased LP diligence.
+                    Creative structuring—such as preferred equity, co-GP programs, and syndications via RIA networks—has become more common. The average equity raise timeline has extended, reflecting increased LP diligence.
 
                   ***
 
@@ -69,13 +72,13 @@ sections:
 
 
                   * Resilience in a Volatile Market:
-                     Self-storage continues to outperform other real estate sectors in terms of NOI stability. In Q1, operators reported steady occupancy and modest rental rate adjustments even in saturated markets.
+                    Self-storage continues to outperform other real estate sectors in terms of NOI stability. In Q1, operators reported steady occupancy and modest rental rate adjustments even in saturated markets.
                   * Supply & Demand Dynamics:
 
                   * Private Capital Trends:
 
                   * Valuation Trends:
-                     While cap rates have expanded slightly, storage assets continue to trade at a premium relative to other sectors due to recession-resistant performance and leaner operating models.
+                    While cap rates have expanded slightly, storage assets continue to trade at a premium relative to other sectors due to recession-resistant performance and leaner operating models.
 
                   ***
 
@@ -84,9 +87,9 @@ sections:
 
 
                   * SEC Oversight:
-                     New private fund disclosure rules effective this year are influencing sponsor behavior—more standardized reporting, clearer fee disclosures, and increased transparency are becoming standard in offerings.
+                    New private fund disclosure rules effective this year are influencing sponsor behavior—more standardized reporting, clearer fee disclosures, and increased transparency are becoming standard in offerings.
                   * Technology Integration:
-                     Both sectors are seeing increased use of proptech to drive NOI:
+                    Both sectors are seeing increased use of proptech to drive NOI:
 
                   ***
 
@@ -95,7 +98,7 @@ sections:
 
 
                   * Risk Appetite:
-                     Investors are seeking:
+                    Investors are seeking:
                   * Preferred Markets (2025 Q1):
 
                   * Emerging Themes:
