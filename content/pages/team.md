@@ -88,7 +88,10 @@ sections:
               Nicole manages all executive-related matters, including those
               requiring discretion and confidentiality. In addition to her
               operational expertise, she is a licensed Realtor and a Certified
-              Probate Real Estate Specialist.
+              Probate Real Estate Specialist. 
+
+
+              Email: ndavis\@backstory-cap.com
             image: /Team/Nicole_Headshot_attz8c.jpg
         _template: team
 ---
