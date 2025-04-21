@@ -70,6 +70,9 @@ sections:
               with advisors while upholding a commitment to exceptional customer
               service. He is a FINRA-licensed professional, holding Series 7 and
               Series 63 certifications.
+
+
+              Email: dgasparovic\@backstory-cap.com
             image: /Team/clw0gkfav014q0lyo084xh7ma-devon.full_inn3ux.jpg
           - backgroundColor: '#95BB6A'
             name: Nicole Davis
