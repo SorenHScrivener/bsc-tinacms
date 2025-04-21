@@ -71,7 +71,7 @@ sections:
               service. He is a FINRA-licensed professional, holding Series 7 and
               Series 63 certifications.
             image: /Team/clw0gkfav014q0lyo084xh7ma-devon.full_inn3ux.jpg
-          - backgroundColor: '#8FB3EC'
+          - backgroundColor: '#95BB6A'
             name: Nicole Davis
             title: Operations Manager
             bio: >
