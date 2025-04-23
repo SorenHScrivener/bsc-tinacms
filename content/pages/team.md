@@ -72,7 +72,8 @@ sections:
               Series 63 certifications.
 
 
-              Email: dgasparovic\@backstory-cap.com
+              Email:
+              [dgasparovic@backstory-cap.com](mailto\:dgasparovic@backstory-cap.com)
             image: /Team/clw0gkfav014q0lyo084xh7ma-devon.full_inn3ux.jpg
           - backgroundColor: '#95BB6A'
             name: Nicole Davis
@@ -91,10 +92,7 @@ sections:
               Nicole manages all executive-related matters, including those
               requiring discretion and confidentiality. In addition to her
               operational expertise, she is a licensed Realtor and a Certified
-              Probate Real Estate Specialist. 
-
-
-              Email: ndavis\@backstory-cap.com
+              Probate Real Estate Specialist.
             image: /Team/Nicole_Headshot_attz8c.jpg
         _template: team
 ---
