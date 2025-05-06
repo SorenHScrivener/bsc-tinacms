@@ -17,9 +17,6 @@ sections:
           and is dedicated to adding value and fostering long-term partnerships.
         _template: simpleCopy
       - member:
-          - name: Matt Ferguson
-            title: SVP Capital Markets
-            image: /Ferguson.jpg
           - backgroundColor: '#8FB3EC'
             name: Brandon Hughes
             title: Co-Founder & Managing Partner
@@ -74,6 +71,9 @@ sections:
               service. He is a FINRA-licensed professional, holding Series 7 and
               Series 63 certifications.
             image: /Team/clw0gkfav014q0lyo084xh7ma-devon.full_inn3ux.jpg
+          - name: Matt Ferguson
+            title: SVP Capital Markets
+            image: /Ferguson.jpg
           - backgroundColor: '#95BB6A'
             name: Nicole Davis
             title: Operations Manager
