@@ -8,7 +8,7 @@ phone:
   label: 770.815.6463
   url: 770.815.6463
 address:
-  label: 3630 Peachtree Rd | Suite 940 | Atlanta | GA 30326
+  label: 3630 Peachtree Rd | Suite 940 | Atlanta GA 30326
   url: >-
     https://www.google.com/maps/place/3630+Peachtree+Rd+%23940,+Atlanta,+GA+30342
 mapLink: >-
