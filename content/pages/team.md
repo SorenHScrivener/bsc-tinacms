@@ -71,7 +71,8 @@ sections:
               service. He is a FINRA-licensed professional, holding Series 7 and
               Series 63 certifications.
             image: /Team/clw0gkfav014q0lyo084xh7ma-devon.full_inn3ux.jpg
-          - name: Matt Ferguson
+          - backgroundColor: '#95BB6A'
+            name: Matt Ferguson
             title: SVP Capital Markets
             image: /Ferguson.jpg
           - backgroundColor: '#95BB6A'
