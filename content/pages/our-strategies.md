@@ -80,7 +80,7 @@ sections:
       - addStatic: true
         icon:
           - label: Arkap
-            image: /logos/arkapmkts-cut.jpg
+            image: /logos/arkapmkts.webp
             imageSize: 'h-[6rem] md:h-[10rem] lg-tab:h-[6rem] w-auto'
           - label: BW
             image: /logos/bw-logo.png
