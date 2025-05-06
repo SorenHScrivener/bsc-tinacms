@@ -56,28 +56,6 @@ sections:
               Series 7, 24, and 63 licenses.
             image: /Team/Brian_Leaf-2_mnrni5.jpg
           - backgroundColor: '#95BB6A'
-            name: Patrick LeBlanc
-            title: Managing Director
-            bio: >
-              Patrick is an experienced Managing Director of Sales with nearly
-              15 years in the financial services industry, specializing in
-              alternative investment products. His career has been primarily
-              dedicated to raising capital in the private fund markets, spanning
-              a diverse range of asset classes, including self-storage and
-              residential real estate.
-
-
-              Most recently, Patrick served as Sales Officer at Storage Units
-              Capital, where he led capital-raising efforts for both a
-              Regulation D fund and a 1031 Exchange fund. He is deeply
-              passionate about collaborating with advisors to identify the best
-              investment solutions for their clients, ensuring optimal outcomes.
-
-
-              A proud Texan, Patrick is a graduate of the Dan Rather
-              Communications School at Sam Houston State University.
-            image: /patrick.jpg
-          - backgroundColor: '#95BB6A'
             name: Devon Gasparovic
             title: VP of Capital Markets
             bio: >
@@ -93,6 +71,29 @@ sections:
               service. He is a FINRA-licensed professional, holding Series 7 and
               Series 63 certifications.
             image: /Team/clw0gkfav014q0lyo084xh7ma-devon.full_inn3ux.jpg
+          - backgroundColor: '#95BB6A'
+            name: Matt Ferguson
+            title: SVP Capital Markets
+            bio: >
+              Matt serves as Senior Vice President at Backstory Capital,
+              specializes in capital raising through independent broker-dealers
+              and registered investment advisors. With over 17 years in the
+              alternative investment industry, Matt brings extensive expertise
+              and a proven track record to the team.
+
+
+              Prior to joining Backstory, Matt served as Vice President of DST
+              Sales at AEI Capital and Sales Director at RK Properties, where he
+              successfully raised over $1 billion for alternative investment
+              products. Before his finance career, Matt served in the United
+              States Army, completing two tours of duty as an Infantry Team
+              Leader in Iraq.
+
+
+              Matt holds a degree in Finance and an MBA from the University of
+              Wisconsin – River Falls, along with FINRA Series 7 and 65
+              licenses.
+            image: /Team/Ferguson.jpg
           - backgroundColor: '#8FB3EC'
             name: Nicole Davis
             title: Operations Manager
