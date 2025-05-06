@@ -12,7 +12,7 @@ address:
   url: >-
     https://www.google.com/maps/place/3630+Peachtree+Rd+%23940,+Atlanta,+GA+30342
 mapLink: >-
-  https://www.google.com/maps/embed/v1/place?key=AIzaSyAxatfCBuGnpnNSscdq4DSxb4dZfy76s-Q=ADDRESS
+  https://www.google.com/maps/embed/v1/place?key=AIzaSyAxatfCBuGnpnNSscdq4DSxb4dZfy76s-Q&q=ADDRESS
 disclaimer: >-
   Securities offered through ARKap Markets - Member FINRA/SIPC. Backstory
   Capital and ARKap Markets are not affiliated.
