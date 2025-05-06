@@ -74,6 +74,25 @@ sections:
           - backgroundColor: '#95BB6A'
             name: Matt Ferguson
             title: SVP Capital Markets
+            bio: >
+              Matt Ferguson, Senior Vice President at Backstory Capital,
+              specializes in capital raising through independent broker-dealers
+              and registered investment advisors. With over 17 years in the
+              alternative investment industry, Matt brings extensive expertise
+              and a proven track record to the team.
+
+
+              Prior to joining Backstory, Matt served as Vice President of DST
+              Sales at AEI Capital and Sales Director at RK Properties, where he
+              successfully raised over $1 billion for alternative investment
+              products. Before his finance career, Matt served in the United
+              States Army, completing two tours of duty as an Infantry Team
+              Leader in Iraq.
+
+
+              Matt holds a degree in Finance and an MBA from the University of
+              Wisconsin – River Falls, along with FINRA Series 7 and 65
+              licenses.
             image: /Ferguson.jpg
           - backgroundColor: '#8FB3EC'
             name: Nicole Davis
