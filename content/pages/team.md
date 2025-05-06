@@ -75,7 +75,7 @@ sections:
             name: Matt Ferguson
             title: SVP Capital Markets
             image: /Ferguson.jpg
-          - backgroundColor: '#95BB6A'
+          - backgroundColor: '#8FB3EC'
             name: Nicole Davis
             title: Operations Manager
             bio: >
