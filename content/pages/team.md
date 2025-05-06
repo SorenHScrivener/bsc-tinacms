@@ -93,7 +93,7 @@ sections:
               Matt holds a degree in Finance and an MBA from the University of
               Wisconsin – River Falls, along with FINRA Series 7 and 65
               licenses.
-            image: /Ferguson.jpg
+            image: /Team/Ferguson.jpg
           - backgroundColor: '#8FB3EC'
             name: Nicole Davis
             title: Operations Manager
