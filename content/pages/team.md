@@ -75,11 +75,11 @@ sections:
             name: Matt Ferguson
             title: SVP Capital Markets
             bio: >
-              Matt Ferguson, Senior Vice President at Backstory Capital,
-              specializes in capital raising through independent broker-dealers
-              and registered investment advisors. With over 17 years in the
-              alternative investment industry, Matt brings extensive expertise
-              and a proven track record to the team.
+              Matt, Senior Vice President at Backstory Capital, specializes in
+              capital raising through independent broker-dealers and registered
+              investment advisors. With over 17 years in the alternative
+              investment industry, Matt brings extensive expertise and a proven
+              track record to the team.
 
 
               Prior to joining Backstory, Matt served as Vice President of DST
