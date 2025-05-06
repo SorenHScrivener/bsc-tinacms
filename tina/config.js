@@ -234,7 +234,7 @@ export default defineConfig({
                 name: "content",
                 label: "Content",
                 list: true,
-                templates: [   
+                templates: [
                   ...sharedTemplates,
                   {
                     name: "splitContent",
@@ -341,12 +341,47 @@ export default defineConfig({
                           {
                             type: "string",
                             name: "label",
-                            label: "label",
+                            label: "Label",
                           },
                           {
                             type: "image",
                             name: "image",
                             label: "Image",
+                          },
+                          {
+                            type: "string",
+                            name: "imageSize",
+                            label: "Image Size",
+                            ui: {
+                              component: "select",
+                            },
+                            options: [
+                              {
+                                value: "h-[6rem] md:h-[10rem] lg-tab:h-[6rem] w-auto",
+                                label: "Standard Partner Logo",
+                              },
+                              {
+                                value: "min-w-full w-[12rem] h-auto self-center lg:self-baseline",
+                                label: "Wide Centered Logo",
+                              },
+                              {
+                                value: "min-w-full w-[18rem] h-auto self-center lg:self-baseline",
+                                label: "Extra Wide Centered Logo",
+                              },
+                              {
+                                value: "w-[86%] h-auto self-center lg:self-baseline",
+                                label: "Semi-Full Logo",
+                              },
+                              {
+                                value: "w-full h-auto self-center lg:self-baseline",
+                                label: "Full Logo",
+                              },
+                              {
+                                value: "",
+                                label: "No Extra Styling",
+                              },
+                            ],
+                            required: false,
                           }
                         ]
                       }

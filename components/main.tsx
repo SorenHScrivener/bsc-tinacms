@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import Image from 'next/image';
+// import Image from 'next/image';
 
 import { useTina } from 'tinacms/dist/react';
 import { tinaField } from 'tinacms/dist/react'
@@ -19,6 +19,7 @@ import Cover from './pieces/Cover';
 import SimpleCopy from './pieces/SimpleCopy';
 import SplitContent from './pieces/SplitContent';
 import IconsArray from './pieces/IconsArray';
+import IconsArrayStatic from './pieces/IconsArrayStatic';
 import Team from './pieces/Team';
 import Bio from './pieces/bio';
 import Cards from './pieces/Cards';
@@ -29,11 +30,11 @@ import { usePathname } from "next/navigation"
 
 import Footer from './pieces/Footer';
 
-import arkap from '@/public/logos/arkapmkts-cut.jpg'
-import bw from '@/public/logos/bw-logo.png'
-import factRight from '@/public/logos/FactRight-.jpg'
-import mickLaw from '@/public/logos/24-MickLaw-Logo_web.webp'
-import MMM from '@/public/logos/Morris Manning logo.png'
+// import arkap from '@/public/logos/arkapmkts-cut.jpg'
+// import bw from '@/public/logos/bw-logo.png'
+// import factRight from '@/public/logos/FactRight-.jpg'
+// import mickLaw from '@/public/logos/24-MickLaw-Logo_web.webp'
+// import MMM from '@/public/logos/Morris Manning logo.png'
 
 export default function PageComponent(
     props: {
@@ -43,11 +44,11 @@ export default function PageComponent(
         },
         query: string,
     },
-) {    
+) {
 
     const { data } = useTina(props);
     // const posts = ((props.data as unknown as dataModel).blogPosts ?? []).map((post) => post);
-    
+
     const [currentId, setCurrentId] = useState<string>();
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -142,7 +143,7 @@ export default function PageComponent(
                                                             mx-auto
                                                             mb-14
                                                         '>
-                                                            <Image
+                                                            {/* <Image
                                                                 id='ark'
                                                                 alt='ARKap Markets Logo'
                                                                 src={arkap}
@@ -168,6 +169,27 @@ export default function PageComponent(
                                                                 alt='Morris, Manning & Martin, LLP Logo'
                                                                 src={MMM}
                                                                 className='w-[12rem] h-auto self-center lg:self-baseline'
+                                                            /> */}
+                                                            
+                                                            <IconsArrayStatic
+                                                                // sectionTitle={section?.sectionTitle}
+                                                                // isTitleHidden={section?.isTitleHidden}
+                                                                // id={section!.id ?? ''}
+                                                                icon={
+                                                                    (content.icon ?? [])
+                                                                        .filter((item): item is {
+                                                                            __typename: "PageSectionsContentIconsArrayIcon";
+                                                                            label?: string | null;
+                                                                            image?: string | null;
+                                                                            imageSize?: string | null;
+                                                                        } => item !== null)
+                                                                        .map(item => ({
+                                                                            ...item,
+                                                                            image: item.image ?? undefined,
+                                                                            imageSize: item.imageSize ?? undefined,
+                                                                            label: item.label ?? "",
+                                                                        }))
+                                                                }
                                                             />
                                                         </div>
                                                     </React.Fragment>
@@ -235,127 +257,127 @@ export default function PageComponent(
 
                                             }
                                         }
-                                        case "PageSectionsContentBlogPosts": { 
+                                        case "PageSectionsContentBlogPosts": {
                                             return <BlogPosts
                                                 {...content}
                                                 key={index}
                                             />
-                                                
-// {/* {posts?.slice(currentPage, (postDisplayLimit ?? 0) + currentPage).map((post, i: number) => {
-//     // @ts-expect-error too annoying to fix
-//     const entry = post.data?.blogPosts;
-//     const text = entry.body[0].content.children[0].props ?
-//         entry.body[0].content.children[0].props.copy.children
-//         : entry.body[0].content.children;
 
-//     const image = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.image : null;
-//     const imageWidth = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.imageWidth : null;
-//     const imageHeight = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.imageHeight : null;
-//     const orientation = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.orientation : null;
-//     const includeMedia = entry.includeMedia;
+                                            // {/* {posts?.slice(currentPage, (postDisplayLimit ?? 0) + currentPage).map((post, i: number) => {
+                                            //     // @ts-expect-error too annoying to fix
+                                            //     const entry = post.data?.blogPosts;
+                                            //     const text = entry.body[0].content.children[0].props ?
+                                            //         entry.body[0].content.children[0].props.copy.children
+                                            //         : entry.body[0].content.children;
 
-//     const combinedText = text.map((item: { children: { text: string }[] }) => {
-//         return item.children[0].text;
-//     }).join('/');
+                                            //     const image = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.image : null;
+                                            //     const imageWidth = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.imageWidth : null;
+                                            //     const imageHeight = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.imageHeight : null;
+                                            //     const orientation = entry.body[0].content.children[0].props !== undefined ? entry.body[0].content.children[0].props.orientation : null;
+                                            //     const includeMedia = entry.includeMedia;
 
-//     const limit = includeMedia ? 50 : 100;
-//     const pArray: string[] = [];
-//     if (countWords(combinedText) > limit) {
-//         let remainingLength = limit;
-//         combinedText.split('/').forEach((sentence: string) => {
-//             if (remainingLength > 0) {
-//                 const words = sentence.trim().split(/\s+/);
-//                 if (remainingLength >= words.length) {
-//                     pArray.push(sentence.trim());
-//                     remainingLength -= words.length;
-//                 } else {
-//                     pArray.push(words.slice(0, remainingLength).join(' ') + '[...]');
-//                     remainingLength = 0;
-//                 }
-//             }
-//         });
-//     } else {
-//         combinedText.split('/').forEach((sentence: string) => {
-//             pArray.push(sentence.trim());
-//         });
-//     }
+                                            //     const combinedText = text.map((item: { children: { text: string }[] }) => {
+                                            //         return item.children[0].text;
+                                            //     }).join('/');
 
-//     return (
-//         <div
-//             // data-tina-field={tinaField(entry, 'title')}
-//             className={
-//                 clsx(
-//                     "mt-4 mb-8 px-4 md:px-[4rem] lg:px-[12rem] max-w-[1350px]",
-//                     {
-//                         hidden: entry.isDraft
-//                     }
-//                 )
-//             } key={i} >
-//             <p className='font-auxTitle italic text-lg mb-1'>{new Date(entry.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</p>
-//             <h2 className='font-semibold text-4xl'>{entry.title}</h2>
-//             <div className={
-//                 clsx(
-//                     'my-8 relative gap-4',
-//                     { 'grid md:grid-cols-2': includeMedia }
-//                 )
-//             }
-//             >
-//                 <div className='my-4 flex flex-col gap-4'>
-//                     {pArray.map((item, i) => {
-//                         const type = text[i].type;
-//                         return React.createElement(type, {
-//                             key: i, className:
-//                                 clsx(
-//                                     '',
-//                                     {
-//                                         'text-2xl font-medium': type === 'h3',
-//                                         'text-xl font-medium': type === 'h4'
-//                                     }
-//                                 )
-//                         }, item);
-//                     })}
-//                     <Link
-//                         href={`/blog-posts/${entry._sys.basename}/${currentPage}`}
-//                         className='text-green-800 text-xl font-semibold hover:opacity-70'
-//                     >
-//                         Keep Reading...
-//                     </Link>
-//                 </div>
-//                 {image && (<Image
-//                     className={clsx(
-//                         'max-w-[80%] self-center justify-self-center',
-//                         {
-//                             '-order-1': orientation === 'img-txt',
-//                             hidden: includeMedia === false
-//                         }
-//                     )}
-//                     {...imageWidth && imageHeight ? { width: imageWidth, height: imageHeight } : { fill: true }}
-//                     src={image || fillerImg}
-//                     alt=''
-//                     loading='lazy'
-//                     quality={75}
-//                 />)}
-//             </div>
-//             <hr className='mt-7' key={`hr-${i}`} />
-//         </div>
-//     )
-// })} */}
+                                            //     const limit = includeMedia ? 50 : 100;
+                                            //     const pArray: string[] = [];
+                                            //     if (countWords(combinedText) > limit) {
+                                            //         let remainingLength = limit;
+                                            //         combinedText.split('/').forEach((sentence: string) => {
+                                            //             if (remainingLength > 0) {
+                                            //                 const words = sentence.trim().split(/\s+/);
+                                            //                 if (remainingLength >= words.length) {
+                                            //                     pArray.push(sentence.trim());
+                                            //                     remainingLength -= words.length;
+                                            //                 } else {
+                                            //                     pArray.push(words.slice(0, remainingLength).join(' ') + '[...]');
+                                            //                     remainingLength = 0;
+                                            //                 }
+                                            //             }
+                                            //         });
+                                            //     } else {
+                                            //         combinedText.split('/').forEach((sentence: string) => {
+                                            //             pArray.push(sentence.trim());
+                                            //         });
+                                            //     }
 
-// {/* <div className='flex gap-3'
-//     data-tina-field={tinaField(data.page, 'postDisplayLimit')}>
+                                            //     return (
+                                            //         <div
+                                            //             // data-tina-field={tinaField(entry, 'title')}
+                                            //             className={
+                                            //                 clsx(
+                                            //                     "mt-4 mb-8 px-4 md:px-[4rem] lg:px-[12rem] max-w-[1350px]",
+                                            //                     {
+                                            //                         hidden: entry.isDraft
+                                            //                     }
+                                            //                 )
+                                            //             } key={i} >
+                                            //             <p className='font-auxTitle italic text-lg mb-1'>{new Date(entry.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</p>
+                                            //             <h2 className='font-semibold text-4xl'>{entry.title}</h2>
+                                            //             <div className={
+                                            //                 clsx(
+                                            //                     'my-8 relative gap-4',
+                                            //                     { 'grid md:grid-cols-2': includeMedia }
+                                            //                 )
+                                            //             }
+                                            //             >
+                                            //                 <div className='my-4 flex flex-col gap-4'>
+                                            //                     {pArray.map((item, i) => {
+                                            //                         const type = text[i].type;
+                                            //                         return React.createElement(type, {
+                                            //                             key: i, className:
+                                            //                                 clsx(
+                                            //                                     '',
+                                            //                                     {
+                                            //                                         'text-2xl font-medium': type === 'h3',
+                                            //                                         'text-xl font-medium': type === 'h4'
+                                            //                                     }
+                                            //                                 )
+                                            //                         }, item);
+                                            //                     })}
+                                            //                     <Link
+                                            //                         href={`/blog-posts/${entry._sys.basename}/${currentPage}`}
+                                            //                         className='text-green-800 text-xl font-semibold hover:opacity-70'
+                                            //                     >
+                                            //                         Keep Reading...
+                                            //                     </Link>
+                                            //                 </div>
+                                            //                 {image && (<Image
+                                            //                     className={clsx(
+                                            //                         'max-w-[80%] self-center justify-self-center',
+                                            //                         {
+                                            //                             '-order-1': orientation === 'img-txt',
+                                            //                             hidden: includeMedia === false
+                                            //                         }
+                                            //                     )}
+                                            //                     {...imageWidth && imageHeight ? { width: imageWidth, height: imageHeight } : { fill: true }}
+                                            //                     src={image || fillerImg}
+                                            //                     alt=''
+                                            //                     loading='lazy'
+                                            //                     quality={75}
+                                            //                 />)}
+                                            //             </div>
+                                            //             <hr className='mt-7' key={`hr-${i}`} />
+                                            //         </div>
+                                            //     )
+                                            // })} */}
 
-//     {Array.from({ length: Math.ceil(posts.length / postDisplayLimit!) }).map((_, index: number) => (
-//         <button
-//             onClick={() => setCurrentPageNumber(index)}
-//             className={clsx(
-//                 'text-xl hover:text-red-800',
-//                 {
-//                     'font-medium text-red-800 pointer-events-none': currentPage === index
-//                 }
-//             )} key={index}>{index + 1}</button>
-//     ))}
-// </div> */}
-                                            
+                                            // {/* <div className='flex gap-3'
+                                            //     data-tina-field={tinaField(data.page, 'postDisplayLimit')}>
+
+                                            //     {Array.from({ length: Math.ceil(posts.length / postDisplayLimit!) }).map((_, index: number) => (
+                                            //         <button
+                                            //             onClick={() => setCurrentPageNumber(index)}
+                                            //             className={clsx(
+                                            //                 'text-xl hover:text-red-800',
+                                            //                 {
+                                            //                     'font-medium text-red-800 pointer-events-none': currentPage === index
+                                            //                 }
+                                            //             )} key={index}>{index + 1}</button>
+                                            //     ))}
+                                            // </div> */}
+
                                         }
                                     }
                                 }
