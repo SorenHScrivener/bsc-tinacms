@@ -308,7 +308,7 @@ export default defineConfig({
                       {
                         type: 'boolean',
                         name: 'addStatic',
-                        label: 'Add Static?',
+                        label: 'Grid Type?',
                         ui: {
                           component: 'toggle',
                           toggleLabels: {
