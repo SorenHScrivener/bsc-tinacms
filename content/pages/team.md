@@ -120,7 +120,7 @@ sections:
             title: AVP Capital Markets
             bio: |
               Coming Soon
-            image: /Team/Zack.jpg
+            image: /Team/Zack 1.jpg
         _template: team
 ---
 
