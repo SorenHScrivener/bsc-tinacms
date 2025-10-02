@@ -28,7 +28,7 @@ sections:
       - isTextCentered: true
         fontSizeLarge: text-lg
         copy: >
-          Co-GP multifamily development funds (OZ and merchant build),
+          Co-GP Multi-Family development funds (OZ and merchant build),
           Opportunistic/distress fund, Texas Value-add Self-Storage, Fee simple
 
 
