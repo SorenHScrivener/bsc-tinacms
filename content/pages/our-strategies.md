@@ -79,7 +79,7 @@ sections:
             borderColor: '#8FB3EC'
             image: /Stonecoal.png
             copy: >
-              Develop the approximately 445 acres, more or less, of primarily
+              Develop approximately 445 acres, more or less, of primarily
               unimproved real property in Floyd County, Kentucky into a thermal,
               stoker, and specialty fines coal mining operation. Alternatively,
               the Mining Operations may be foregone by Stonecoal in order to
