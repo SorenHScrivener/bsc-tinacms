@@ -55,7 +55,7 @@ sections:
               College of Business at the University of Georgia and holds FINRA
               Series 7, 24, and 63 licenses.
             image: /Team/Brian_Leaf-2_mnrni5.jpg
-          - backgroundColor: '#8FB3EC'
+          - backgroundColor: '#95BB6A'
             name: Nicole Davis
             title: Operations Director
             bio: >
