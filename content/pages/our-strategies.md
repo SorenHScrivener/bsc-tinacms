@@ -14,7 +14,7 @@ sections:
         fontSizeLarge: text-lg
         copy: >
           Co-GP multifamily development funds (OZ and merchant build),
-          Opportunistic/distress fund, Texas Value-add Self-Storage, Fee simple 
+          Opportunistic/distress fund, Texas Value-add Self-Storage, Fee simple
 
 
           Tax mitigation strategies - 1031 exchanges, Opportunity zones, and
@@ -98,7 +98,7 @@ sections:
 
               [https://evrsourcecapital.1776ing.com/](https://evrsourcecapital.1776ing.com/)
         _template: cardsArray
-  - sectionTitle: Investment Opportunities
+  - sectionTitle: Our Strategies
     id: Id-164118235157
     content:
       - copy: ''
