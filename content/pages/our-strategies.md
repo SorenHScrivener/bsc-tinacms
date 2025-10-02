@@ -15,7 +15,7 @@ sections:
           We collaborate with top commercial real estate firms to secure capital
           for fund vehicles and direct investment opportunities. We join forces
           with aligned alternative fund managers who prioritize an unwavering
-          commitment to investors. 
+          commitment to investors.
 
 
           At BackStory Capital, we emphasize capital preservation, transparency,
@@ -29,11 +29,8 @@ sections:
         fontSizeLarge: text-lg
         copy: >
           Co-GP Multi-Family development funds (OZ and merchant build),
-          Opportunistic/distress fund, Texas Value-add Self-Storage, Fee simple
-
-
-          Tax mitigation strategies - 1031 exchanges, Opportunity zones, and
-          Roth conversions.
+          Opportunistic/distress fund, Texas Value-add Self-Storage fund, Fee
+          Simple/Coal Mining 
         _template: simpleCopy
       - style: logo
         cards:
