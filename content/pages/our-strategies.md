@@ -89,11 +89,10 @@ sections:
               utility company for nearly 25 years, developing over 60,000
               residential lots across Georgia, North Carolina, and South
               Carolina for major builders like Pulte Homes and Toll Brothers.
-              With 34 years of experience as a developer and contractor, they
-              managed up to 400 employees, oversaw business strategy, fleet
-              management, and equipment acquisition, while expanding the company
-              to include quarry services and an in-house residential engineering
-              firm. 
+              With 34 years of experience as a developer and contractor, managed
+              up to 400 employees, oversaw business strategy, fleet management,
+              and equipment acquisition, while expanding the company to include
+              quarry services and an in-house residential engineering firm. 
 
 
               [https://evrsourcecapital.1776ing.com/](https://evrsourcecapital.1776ing.com/)
