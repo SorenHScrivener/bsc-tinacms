@@ -16,14 +16,15 @@ sections:
           We collaborate with top commercial real estate firms to raise capital
           for fund vehicles and direct investment opportunities. We join forces
           with aligned alternative fund managers who prioritize an unwavering
-          commitment to investors. 
+          commitment to investors.
 
 
           At BackStory Capital, we emphasize capital preservation, transparency,
           clear communication, and reliable service as essential principles.
 
 
-          Our strategies include, but are not limited to:
+          Our tax mitigation strategies include, but are not limited to: 1031
+          exchanges, Opportunity zones, and Roth conversions.
         _template: simpleCopy
       - style: logo
         cards:
@@ -88,7 +89,7 @@ sections:
               Opportunistic/special-situations focused on value creation via
               mining development or tax-efficient charitable donation/investment
               alternatives, with capital preservation and cash distribution
-              goals. 
+              goals.
 
 
               The Management Team operated a family real estate development and
@@ -98,7 +99,7 @@ sections:
               With 34 years of experience as a developer and contractor, managed
               up to 400 employees, oversaw business strategy, fleet management,
               and equipment acquisition, while expanding the company to include
-              quarry services and an in-house residential engineering firm. 
+              quarry services and an in-house residential engineering firm.
 
 
               [https://evrsourcecapital.1776ing.com/](https://evrsourcecapital.1776ing.com/)
