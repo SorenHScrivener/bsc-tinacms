@@ -73,12 +73,21 @@ sections:
 
 
               [https://www.apollo-united.com/](https://www.apollo-united.com/)
-          - subTitle: Stonecoal Investors
+          - subTitle: Stonecoal Investors - Fee Simple
             backgroundColor: '#D6E4F0'
             opacity: 100
             borderColor: '#8FB3EC'
             image: /Stonecoal.png
-            copy: ''
+            copy: >
+              Develop the approximately 445 acres, more or less, of primarily
+              unimproved real property in Floyd County, Kentucky into a thermal,
+              stoker, and specialty fines coal mining operation. Alternatively,
+              the Mining Operations may be foregone by Stonecoal in order to
+              enable it to make a “charitable contribution” or gift of its
+              entire ownership interest in the real property. 
+
+
+              [https://evrsourcecapital.1776ing.com/](https://evrsourcecapital.1776ing.com/)
         _template: cardsArray
   - sectionTitle: Our Partners
     id: Id-847714648675
