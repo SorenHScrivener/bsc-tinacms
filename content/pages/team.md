@@ -78,7 +78,7 @@ sections:
             image: /Team/Nicole_Headshot_attz8c.jpg
           - backgroundColor: '#95BB6A'
             name: Devon Gasparovic
-            title: VP of Capital Markets
+            title: VP Capital Markets
             bio: >
               Devon serves as Vice President of Capital Markets at Backstory
               Capital, bringing extensive experience in wholesaling fixed income
