@@ -40,7 +40,7 @@ sections:
               market placement. To date, the CEDARst team has successfully
               developed or invested in over 65 assets, encompassing 8,000 units
               across nine states, in partnership with some of the largest
-              institutional investors in the country.  
+              institutional investors in the country.
 
 
               [https://www.cedarst.com/](https://www.cedarst.com/)
@@ -69,11 +69,11 @@ sections:
               Through a strategic partnership with Apollo United as the asset
               manager, this joint venture leverages deep local market expertise
               and best-in-class property management practices to drive
-              exceptional performance. 
+              exceptional performance.
 
 
               [https://www.apollo-united.com/](https://www.apollo-united.com/)
-          - subTitle: Stonecoal Investors - Fee Simple
+          - subTitle: Stonecoal Investors - Fee Simple/Coal Mining Operations
             backgroundColor: '#D6E4F0'
             opacity: 100
             borderColor: '#8FB3EC'
@@ -84,7 +84,7 @@ sections:
               stoker, and specialty fines coal mining operation. Alternatively,
               the Mining Operations may be foregone by Stonecoal in order to
               enable it to make a “charitable contribution” or gift of its
-              entire ownership interest in the real property. 
+              entire ownership interest in the real property.
 
 
               [https://evrsourcecapital.1776ing.com/](https://evrsourcecapital.1776ing.com/)
