@@ -6,25 +6,19 @@ cover:
   coverImage: /Covers/strategies.webp
   brightness: 48
 sections:
-  - sectionTitle: Our Strategies
+  - sectionTitle: Investment Opportunities
     isTitleHidden: false
     id: Id-877877745062
     content:
       - isTextCentered: true
         fontSizeLarge: text-lg
         copy: >
-          We collaborate with top commercial real estate firms to raise capital
-          for fund vehicles and direct investment opportunities. We join forces
-          with aligned alternative fund managers who prioritize an unwavering
-          commitment to investors.
+          Co-GP multifamily development funds (OZ and merchant build),
+          Opportunistic/distress fund, Texas Value-add Self-Storage, Fee simple 
 
 
-          At BackStory Capital, we emphasize capital preservation, transparency,
-          clear communication, and reliable service as essential principles.
-
-
-          Our tax mitigation strategies include, but are not limited to: 1031
-          exchanges, Opportunity zones, and Roth conversions.
+          Tax mitigation strategies - 1031 exchanges, Opportunity zones, and
+          Roth conversions.
         _template: simpleCopy
       - style: logo
         cards:
@@ -107,7 +101,8 @@ sections:
   - sectionTitle: Investment Opportunities
     id: Id-164118235157
     content:
-      - _template: simpleCopy
+      - copy: ''
+        _template: simpleCopy
   - sectionTitle: Our Partners
     id: Id-847714648675
     content:
