@@ -69,7 +69,10 @@ sections:
               Through a strategic partnership with Apollo United as the asset
               manager, this joint venture leverages deep local market expertise
               and best-in-class property management practices to drive
-              exceptional performance.
+              exceptional performance. 
+
+
+              [https://www.apollo-united.com/](https://www.apollo-united.com/)
           - subTitle: Stonecoal Investors
             backgroundColor: '#D6E4F0'
             opacity: 100
