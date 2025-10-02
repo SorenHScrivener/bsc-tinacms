@@ -55,6 +55,25 @@ sections:
               College of Business at the University of Georgia and holds FINRA
               Series 7, 24, and 63 licenses.
             image: /Team/Brian_Leaf-2_mnrni5.jpg
+          - backgroundColor: '#8FB3EC'
+            name: Nicole Davis
+            title: Operations Director
+            bio: >
+              With more than 18 years of experience, Nicole brings exceptional
+              expertise in driving management decisions, developing strategic
+              initiatives, and optimizing operations for the Backstory team. She
+              specializes in streamlining processes, identifying inefficiencies,
+              and delivering high-level administrative support to company
+              leadership, ensuring the smooth execution of critical tasks and
+              initiatives.
+
+
+              As the primary liaison for internal and external stakeholders,
+              Nicole manages all executive-related matters, including those
+              requiring discretion and confidentiality. In addition to her
+              operational expertise, she is a licensed Realtor and a Certified
+              Probate Real Estate Specialist.
+            image: /Team/Nicole_Headshot_attz8c.jpg
           - backgroundColor: '#95BB6A'
             name: Devon Gasparovic
             title: VP of Capital Markets
@@ -100,25 +119,6 @@ sections:
             bio: |
               Coming soon
             image: /Team/Zack 1.jpg
-          - backgroundColor: '#8FB3EC'
-            name: Nicole Davis
-            title: Operations Director
-            bio: >
-              With more than 18 years of experience, Nicole brings exceptional
-              expertise in driving management decisions, developing strategic
-              initiatives, and optimizing operations for the Backstory team. She
-              specializes in streamlining processes, identifying inefficiencies,
-              and delivering high-level administrative support to company
-              leadership, ensuring the smooth execution of critical tasks and
-              initiatives.
-
-
-              As the primary liaison for internal and external stakeholders,
-              Nicole manages all executive-related matters, including those
-              requiring discretion and confidentiality. In addition to her
-              operational expertise, she is a licensed Realtor and a Certified
-              Probate Real Estate Specialist.
-            image: /Team/Nicole_Headshot_attz8c.jpg
         _template: team
 ---
 
