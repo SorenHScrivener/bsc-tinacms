@@ -96,7 +96,7 @@ sections:
             image: /Team/Ferguson.jpg
           - backgroundColor: '#8FB3EC'
             name: Nicole Davis
-            title: Operations Manager
+            title: Operations Director
             bio: >
               With more than 18 years of experience, Nicole brings exceptional
               expertise in driving management decisions, developing strategic
