@@ -65,7 +65,7 @@ sections:
               Capital Markets group, supporting capital raising, investor
               tracking, and transaction execution. Nicole coordinates with
               transfer agents, custodians, and counterparties to ensure
-              efficient deal flow and compliance.
+              efficient deal flow and compliance. 
 
 
               As the primary liaison for internal and external stakeholders, she
