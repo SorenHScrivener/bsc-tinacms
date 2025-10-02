@@ -32,7 +32,7 @@ sections:
       - isTextCentered: true
         fontSizeLarge: text-lg
         copy: >
-          Co-GP Multi-Family Development funds (OZ and merchant build),
+          Co-GP Multi-Family Development funds (OZ and Merchant build),
           Opportunistic/Distress fund, Texas Value-Add Self-Storage fund, Fee
           Simple/Coal Mining 
         _template: simpleCopy
