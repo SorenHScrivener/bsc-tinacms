@@ -73,18 +73,27 @@ sections:
 
 
               [https://www.apollo-united.com/](https://www.apollo-united.com/)
-          - subTitle: Stonecoal Investors - Fee Simple/Coal Mining Operations
+          - subTitle: Stonecoal Investors - Fee Simple/Coal Mining Operation
             backgroundColor: '#D6E4F0'
             opacity: 100
             borderColor: '#8FB3EC'
             image: /Stonecoal.png
             copy: >
-              Develop approximately 445 acres, more or less, of primarily
-              unimproved real property in Floyd County, Kentucky into a thermal,
-              stoker, and specialty fines coal mining operation. Alternatively,
-              the Mining Operations may be foregone by Stonecoal in order to
-              enable it to make a “charitable contribution” or gift of its
-              entire ownership interest in the real property.
+              Opportunistic/special-situations focused on value creation via
+              mining development or tax-efficient charitable donation/investment
+              alternatives, with capital preservation and cash distribution
+              goals. 
+
+
+              The Management Team operated a family real estate development and
+              utility company for nearly 25 years, developing over 60,000
+              residential lots across Georgia, North Carolina, and South
+              Carolina for major builders like Pulte Homes and Toll Brothers.
+              With 34 years of experience as a developer and contractor, they
+              managed up to 400 employees, oversaw business strategy, fleet
+              management, and equipment acquisition, while expanding the company
+              to include quarry services and an in-house residential engineering
+              firm. 
 
 
               [https://evrsourcecapital.1776ing.com/](https://evrsourcecapital.1776ing.com/)
