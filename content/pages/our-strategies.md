@@ -40,7 +40,10 @@ sections:
               market placement. To date, the CEDARst team has successfully
               developed or invested in over 65 assets, encompassing 8,000 units
               across nine states, in partnership with some of the largest
-              institutional investors in the country.
+              institutional investors in the country.  
+
+
+              [https://www.cedarst.com/](https://www.cedarst.com/)
           - subTitle: Apollo United – Self-Storage
             backgroundColor: '#D6E4F0'
             opacity: 28
