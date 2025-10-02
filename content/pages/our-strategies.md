@@ -6,6 +6,19 @@ cover:
   coverImage: /Covers/strategies.webp
   brightness: 48
 sections:
+  - sectionTitle: Our Strategies
+    id: Id-164118235157
+    content:
+      - copy: >
+          We collaborate with top commercial real estate firms to secure capital
+          for fund vehicles and direct investment opportunities. We join forces
+          with aligned alternative fund managers who prioritize an unwavering
+          commitment to investors. 
+
+
+          At BackStory Capital, we emphasize capital preservation, transparency,
+          clear communication, and reliable service as essential principles.
+        _template: simpleCopy
   - sectionTitle: Investment Opportunities
     isTitleHidden: false
     id: Id-877877745062
@@ -98,11 +111,6 @@ sections:
 
               [https://evrsourcecapital.1776ing.com/](https://evrsourcecapital.1776ing.com/)
         _template: cardsArray
-  - sectionTitle: Our Strategies
-    id: Id-164118235157
-    content:
-      - copy: ''
-        _template: simpleCopy
   - sectionTitle: Our Partners
     id: Id-847714648675
     content:
