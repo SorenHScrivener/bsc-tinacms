@@ -95,6 +95,11 @@ sections:
               licenses.
             image: /Team/Ferguson.jpg
           - backgroundColor: '#8FB3EC'
+            name: Zack Hayward
+            title: AVP Capital Markets
+            bio: ''
+            image: /Team/Zack 1.jpg
+          - backgroundColor: '#8FB3EC'
             name: Nicole Davis
             title: Operations Director
             bio: >
