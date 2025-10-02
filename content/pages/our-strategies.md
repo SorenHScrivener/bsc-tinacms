@@ -9,7 +9,8 @@ sections:
   - sectionTitle: Our Strategies
     id: Id-164118235157
     content:
-      - copy: >
+      - fontSizeLarge: text-lg
+        copy: >
           We collaborate with top commercial real estate firms to secure capital
           for fund vehicles and direct investment opportunities. We join forces
           with aligned alternative fund managers who prioritize an unwavering
