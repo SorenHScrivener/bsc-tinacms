@@ -118,8 +118,7 @@ sections:
           - backgroundColor: '#8FB3EC'
             name: Zack Hayward
             title: AVP Capital Markets
-            bio: |
-              Coming Soon
+            bio: ''
             image: /Team/Zack 1.jpg
         _template: team
 ---
