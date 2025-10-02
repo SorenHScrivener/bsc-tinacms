@@ -67,6 +67,12 @@ sections:
               manager, this joint venture leverages deep local market expertise
               and best-in-class property management practices to drive
               exceptional performance.
+          - subTitle: Stonecoal Investors
+            backgroundColor: '#D6E4F0'
+            opacity: 100
+            borderColor: '#8FB3EC'
+            image: /Stonecoal.png
+            copy: ''
         _template: cardsArray
   - sectionTitle: Our Partners
     id: Id-847714648675
