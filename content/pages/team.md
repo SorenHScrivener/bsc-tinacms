@@ -59,20 +59,22 @@ sections:
             name: Nicole Davis
             title: Operations Director
             bio: >
-              With more than 18 years of experience, Nicole brings exceptional
-              expertise in driving management decisions, developing strategic
-              initiatives, and optimizing operations for the Backstory team. She
-              specializes in streamlining processes, identifying inefficiencies,
-              and delivering high-level administrative support to company
-              leadership, ensuring the smooth execution of critical tasks and
-              initiatives.
+              With over 18 years of experience, Nicole brings deep expertise in
+              strategic operations, process optimization, and executive support
+              to the Backstory team. She manages daily operations for the
+              Capital Markets group, supporting capital raising, investor
+              tracking, and transaction execution. Nicole coordinates with
+              transfer agents, custodians, and counterparties to ensure
+              efficient deal flow and compliance.
 
 
-              As the primary liaison for internal and external stakeholders,
-              Nicole manages all executive-related matters, including those
-              requiring discretion and confidentiality. In addition to her
-              operational expertise, she is a licensed Realtor and a Certified
-              Probate Real Estate Specialist.
+              As the primary liaison for internal and external stakeholders, she
+              handles executive matters with discretion and provides high-level
+              administrative support. She also maintains the CRM systems,
+              facilitates Sponsor-investor communications, and ensures
+              operations align with firm growth goals. Nicole is a licensed
+              Realtor and a Certified Probate Real Estate Specialist, further
+              broadening her professional capabilities.
             image: /Team/Nicole_Headshot_attz8c.jpg
           - backgroundColor: '#95BB6A'
             name: Devon Gasparovic
