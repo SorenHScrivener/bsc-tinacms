@@ -113,7 +113,8 @@ sections:
               operational expertise, she is a licensed Realtor and a Certified
               Probate Real Estate Specialist.
             image: /Team/Nicole_Headshot_attz8c.jpg
-          - name: Zack Hayward
+          - backgroundColor: '#8FB3EC'
+            name: Zack Hayward
             title: AVP Capital Markets
             bio: |
               Coming soon
