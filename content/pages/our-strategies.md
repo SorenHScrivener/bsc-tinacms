@@ -20,6 +20,10 @@ sections:
 
           At BackStory Capital, we emphasize capital preservation, transparency,
           clear communication, and reliable service as essential principles.
+
+
+          Tax mitigation strategies include but not limited to: 1031 Exchanges,
+          Opportunity Zones, and Roth Conversions.
         _template: simpleCopy
   - sectionTitle: Investment Opportunities
     isTitleHidden: false
