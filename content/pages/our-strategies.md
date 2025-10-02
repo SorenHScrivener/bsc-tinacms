@@ -6,6 +6,10 @@ cover:
   coverImage: /Covers/strategies.webp
   brightness: 48
 sections:
+  - sectionTitle: Investment Opportunities
+    id: Id-164118235157
+    content:
+      - _template: simpleCopy
   - sectionTitle: Our Strategies
     isTitleHidden: false
     id: Id-877877745062
