@@ -13,15 +13,14 @@ sections:
       - isTextCentered: true
         fontSizeLarge: text-lg
         copy: >
-          We partner with leading commercial real estate firms to raise capital
-          for both fund vehicles and direct investment opportunities.
+          We collaborate with top commercial real estate firms to raise capital
+          for fund vehicles and direct investment opportunities. We join forces
+          with aligned alternative fund managers who prioritize an unwavering
+          commitment to investors. 
 
 
-          At BackStory Capital, the investor is our priority. We believe that a
-          focus on capital preservation, transparency, communication, and
-          dependable service are imperative, and we partner with like-minded
-          alternative fund managers who demonstrate an unwavering commitment to
-          the investor. 
+          At BackStory Capital, we emphasize capital preservation, transparency,
+          clear communication, and reliable service as essential principles.
 
 
           Our strategies include, but are not limited to:
