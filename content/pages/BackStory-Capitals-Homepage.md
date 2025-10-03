@@ -2,7 +2,7 @@
 pageTitle: BackStory Capital's Homepage
 slug: /
 cover:
-  copy: Every Backstory Inspires New Opportunities
+  copy: Your Trusted Source for Alternative Investments
   coverImage: /Covers/home.webp
   brightness: 65
 sections:
