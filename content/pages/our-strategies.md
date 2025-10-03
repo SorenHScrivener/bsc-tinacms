@@ -125,21 +125,21 @@ sections:
         _template: simpleCopy
       - addStatic: true
         icon:
+          - label: Seyfarth
+            image: /download.png
+            imageSize: 'min-w-full w-[12rem] h-auto self-center lg:self-baseline'
           - label: Arkap
             image: /logos/arkapmkts.webp
+            imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
+          - label: BW
+            image: /logos/bw-logo.png
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
           - label: Mick
             image: /logos/24-MickLaw-Logo_web.webp
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
-          - label: Seyfarth
-            image: /download.png
-            imageSize: 'min-w-full w-[12rem] h-auto self-center lg:self-baseline'
           - label: FactRight
             image: /logos/FactRight-.jpg
             imageSize: ''
-          - label: BW
-            image: /logos/bw-logo.png
-            imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
         _template: iconsArray
 ---
 
