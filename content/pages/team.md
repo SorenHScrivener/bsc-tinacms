@@ -119,7 +119,7 @@ sections:
             name: Zack Hayward
             title: AVP Capital Markets
             bio: ''
-            image: /Team/Zack 1.jpg
+            image: /Team/Zack 2.jpg
         _template: team
 ---
 
