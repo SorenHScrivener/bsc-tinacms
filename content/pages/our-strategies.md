@@ -133,7 +133,7 @@ sections:
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
           - label: Mick
             image: /logos/24-MickLaw-Logo_web.webp
-            imageSize: 'min-w-full w-[18rem] h-auto self-center lg:self-baseline'
+            imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
           - label: FactRight
             image: /logos/FactRight-.jpg
             imageSize: ''
