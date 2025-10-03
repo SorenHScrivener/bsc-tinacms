@@ -12,7 +12,7 @@ sections:
       - isTextCentered: true
         fontSizeLarge: text-lg
         copy: >
-          We collaborate with top commercial real estate firms to secure capital
+          We collaborate with top commercial real estate firms to raise capital
           for fund vehicles and direct investment opportunities. We join forces
           with aligned alternative fund managers who prioritize an unwavering
           commitment to investors.
@@ -34,7 +34,7 @@ sections:
         copy: >
           Co-GP Multi-Family Development funds (OZ and Merchant build),
           Opportunistic/Distress fund, Texas Value-Add Self-Storage funds,
-          Tax-Efficient Charitable donation 
+          Tax-Efficient Charitable donation
         _template: simpleCopy
       - style: logo
         cards:
