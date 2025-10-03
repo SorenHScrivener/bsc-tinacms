@@ -128,9 +128,6 @@ sections:
           - label: Arkap
             image: /logos/arkapmkts.webp
             imageSize: 'h-[6rem] md:h-[10rem] lg-tab:h-[6rem] w-auto'
-          - label: BW
-            image: /logos/bw-logo.png
-            imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
           - label: Mick
             image: /logos/24-MickLaw-Logo_web.webp
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
@@ -140,6 +137,9 @@ sections:
           - label: Seyfarth
             image: /download.png
             imageSize: 'min-w-full w-[12rem] h-auto self-center lg:self-baseline'
+          - label: BW
+            image: /logos/bw-logo.png
+            imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
         _template: iconsArray
 ---
 
