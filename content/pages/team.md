@@ -114,7 +114,7 @@ sections:
               Matt holds a degree in Finance and an MBA from the University of
               Wisconsin – River Falls, along with FINRA Series 7 and 65
               licenses.
-            image: /Team/Fergy1.jpg
+            image: /Team/Fergy.jpg
           - backgroundColor: '#8FB3EC'
             name: Zack Hayward
             title: AVP Capital Markets
