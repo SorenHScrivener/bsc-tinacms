@@ -136,7 +136,7 @@ sections:
             imageSize: 'min-w-full w-[18rem] h-auto self-center lg:self-baseline'
           - label: FactRight
             image: /logos/FactRight-.jpg
-            imageSize: ''
+            imageSize: 'w-full h-auto self-center lg:self-baseline'
           - label: Seyfarth
             image: /download.png
             imageSize: 'w-full h-auto self-center lg:self-baseline'
