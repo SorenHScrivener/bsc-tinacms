@@ -130,7 +130,7 @@ sections:
             imageSize: 'h-[6rem] md:h-[10rem] lg-tab:h-[6rem] w-auto'
           - label: BW
             image: /logos/bw-logo.png
-            imageSize: 'min-w-full w-[12rem] h-auto self-center lg:self-baseline'
+            imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
           - label: Mick
             image: /logos/24-MickLaw-Logo_web.webp
             imageSize: 'min-w-full w-[18rem] h-auto self-center lg:self-baseline'
