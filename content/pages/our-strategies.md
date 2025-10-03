@@ -126,8 +126,8 @@ sections:
       - addStatic: true
         icon:
           - label: Arkap
-            image: /logos/arkapmkts-cut.jpg
-            imageSize: 'h-[6rem] md:h-[10rem] lg-tab:h-[6rem] w-auto'
+            image: /logos/arkapmkts.webp
+            imageSize: ''
           - label: BW
             image: /logos/bw-logo.png
             imageSize: 'w-full h-auto self-center lg:self-baseline'
