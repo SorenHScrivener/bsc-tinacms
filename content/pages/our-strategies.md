@@ -137,9 +137,9 @@ sections:
           - label: FactRight
             image: /logos/FactRight-.jpg
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
-          - label: MMM
+          - label: Seyfarth
             image: /download.png
-            imageSize: 'w-[12rem] h-auto self-center lg:self-baseline'
+            imageSize: 'w-full h-auto self-center lg:self-baseline'
         _template: iconsArray
 ---
 
