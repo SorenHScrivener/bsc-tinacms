@@ -90,7 +90,7 @@ sections:
 
 
               [https://www.apollo-united.com/](https://www.apollo-united.com/)
-          - subTitle: Stonecoal Investors - Fee Simple/Coal Mining Operation
+          - subTitle: Stonecoal Investors - Coal Mining Operation/Charitable Donation
             backgroundColor: '#D6E4F0'
             opacity: 100
             borderColor: '#8FB3EC'
