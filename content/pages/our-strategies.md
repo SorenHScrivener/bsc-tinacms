@@ -127,7 +127,7 @@ sections:
         icon:
           - label: Arkap
             image: /logos/arkapmkts.webp
-            imageSize: 'h-[6rem] md:h-[10rem] lg-tab:h-[6rem] w-auto'
+            imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
           - label: Mick
             image: /logos/24-MickLaw-Logo_web.webp
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
