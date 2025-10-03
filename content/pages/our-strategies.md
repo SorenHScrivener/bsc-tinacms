@@ -131,12 +131,12 @@ sections:
           - label: Mick
             image: /logos/24-MickLaw-Logo_web.webp
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
-          - label: FactRight
-            image: /logos/FactRight-.jpg
-            imageSize: ''
           - label: Seyfarth
             image: /download.png
             imageSize: 'min-w-full w-[12rem] h-auto self-center lg:self-baseline'
+          - label: FactRight
+            image: /logos/FactRight-.jpg
+            imageSize: ''
           - label: BW
             image: /logos/bw-logo.png
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
