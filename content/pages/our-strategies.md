@@ -139,7 +139,7 @@ sections:
             imageSize: ''
           - label: Seyfarth
             image: /download.png
-            imageSize: 'w-full h-auto self-center lg:self-baseline'
+            imageSize: 'min-w-full w-[12rem] h-auto self-center lg:self-baseline'
         _template: iconsArray
 ---
 
