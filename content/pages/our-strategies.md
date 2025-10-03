@@ -90,7 +90,7 @@ sections:
 
 
               [https://www.apollo-united.com/](https://www.apollo-united.com/)
-          - subTitle: Stonecoal Investors - Coal Mining Operation/Charitable Donation
+          - subTitle: Stonecoal Investors - Coal Mining Operation
             backgroundColor: '#D6E4F0'
             opacity: 100
             borderColor: '#8FB3EC'
