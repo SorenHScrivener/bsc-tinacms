@@ -138,7 +138,7 @@ sections:
             image: /logos/FactRight-.jpg
             imageSize: 'w-[86%] h-auto self-center lg:self-baseline'
           - label: MMM
-            image: /logos/Morris Manning logo.png
+            image: /download.png
             imageSize: 'w-[12rem] h-auto self-center lg:self-baseline'
         _template: iconsArray
 ---
