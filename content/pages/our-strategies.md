@@ -127,7 +127,7 @@ sections:
         icon:
           - label: Arkap
             image: /logos/arkapmkts.webp
-            imageSize: 'w-full h-auto self-center lg:self-baseline'
+            imageSize: 'h-[6rem] md:h-[10rem] lg-tab:h-[6rem] w-auto'
           - label: BW
             image: /logos/bw-logo.png
             imageSize: 'min-w-full w-[12rem] h-auto self-center lg:self-baseline'
