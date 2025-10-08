@@ -125,10 +125,11 @@ sections:
               approach that has consistently positioned him as a top performer.
 
 
-              Originally from Dallas, Texas, Zack played collegiate golf at
-              Stephen F. Austin University, where he honed his discipline and
-              teamwork skills while forging valuable professional connections
-              and enduring relationships.
+              Originally from Dallas, Texas, Zack graduated from Stephen F.
+              Austin University with a Bachelor of Business Administration and
+              played collegiate golf where he honed his discipline and teamwork
+              skills while forging valuable professional connections and
+              enduring relationships.
             image: /Team/Zack 2.jpg
         _template: team
 ---
