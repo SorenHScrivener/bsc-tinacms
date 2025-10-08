@@ -34,7 +34,7 @@ sections:
               distribution and growing assets under management to over $4
               billion. He holds a Bachelor of Business Administration in Finance
               from the Parker School of Business at Georgia Southern University
-              and his FINRA Series 7, 24, and 63 licenses.
+              and FINRA Series 7, 24, and 63 licenses.
             image: /Team/Brandon_Hughes_-_2_tofcek.jpg
           - backgroundColor: '#8FB3EC'
             name: Brian Leaf
