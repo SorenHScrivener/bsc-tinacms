@@ -34,7 +34,7 @@ sections:
               distribution and growing assets under management to over $4
               billion. He holds a Bachelor of Business Administration in Finance
               from the Parker School of Business at Georgia Southern University
-              and is a frequent speaker at industry conferences.
+              and his FINRA Series 7, 24, and 63 licenses.
             image: /Team/Brandon_Hughes_-_2_tofcek.jpg
           - backgroundColor: '#8FB3EC'
             name: Brian Leaf
@@ -123,7 +123,7 @@ sections:
               With more than five years of sales experience in the financial
               services industry, he has excelled across diverse roles,
               cultivating a comprehensive perspective and client-centric
-              approach that has consistently positioned him as a top performer. 
+              approach that has consistently positioned him as a top performer.
 
 
               Originally from Dallas, Texas, Zack played collegiate golf at
