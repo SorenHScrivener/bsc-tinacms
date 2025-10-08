@@ -70,11 +70,10 @@ sections:
 
               As the primary liaison for internal and external stakeholders, she
               handles executive matters with discretion and provides high-level
-              administrative support. She also maintains the CRM systems,
-              facilitates Sponsor-investor communications, and ensures
-              operations align with firm growth goals. Nicole is a licensed
-              Realtor and a Certified Probate Real Estate Specialist, further
-              broadening her professional capabilities.
+              administrative support. Nicole graduated from California State
+              University, Sacramento with a Bachelor of Science in Kinesiology,
+              is a licensed Realtor and a Certified Probate Real Estate
+              Specialist.
             image: /Team/Nicole_Headshot_attz8c.jpg
           - backgroundColor: '#95BB6A'
             name: Devon Gasparovic
