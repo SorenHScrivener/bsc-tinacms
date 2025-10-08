@@ -123,7 +123,9 @@ sections:
               With more than five years of sales experience in the financial
               services industry, he has excelled across diverse roles,
               cultivating a comprehensive perspective and client-centric
-              approach that has consistently positioned him as a top performer.
+              approach that has consistently positioned him as a top performer. 
+
+
               Originally from Dallas, Texas, Zack played collegiate golf at
               Stephen F. Austin University, where he honed his discipline and
               teamwork skills while forging valuable professional connections
