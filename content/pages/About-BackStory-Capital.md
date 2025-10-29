@@ -25,13 +25,11 @@ sections:
         isImageFirst: false
         image: /splitImages/iStock-952980894.jpg
         copy: >
-          We serve investors across the nation, focusing on distributing
-          strategies tailored for those seeking alternative investment solutions
-          that deliver superior risk-adjusted returns. Our advisory services
-          encompass all aspects of the capital markets process for each manager
-          we represent, including fund structuring, market positioning, the
-          development of collateral and educational materials, as well as
-          partnership terms and conditions and fund capacity management.
+          Our advisory services encompass all aspects of the capital markets
+          process for each manager we represent, including fund structuring,
+          market positioning, the development of collateral and educational
+          materials, as well as partnership terms and conditions and fund
+          capacity management.
         _template: splitContent
 ---
 
