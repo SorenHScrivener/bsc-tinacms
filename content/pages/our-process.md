@@ -55,11 +55,10 @@ sections:
             borderColor: '#8FB3EC'
             image: /cardImgs/89v3pxne.webp
             copy: >
-              We provide clients with high-quality sales materials, investor
-              presentations, regular fund updates, and detailed quarterly
-              reports with commentary as standard offerings. Our Marketing
-              Services team, with a keen eye for detail, is highly skilled in
-              delivering information to a global audience.
+              We offer clients high-quality sales materials, investor
+              presentations, fund updates, and detailed quarterly reports with
+              insights as standard. Our detail-focused Marketing Services team
+              excels at distributing this information to our partners. 
           - subTitle: Sales Education & Support
             backgroundColor: '#D6E4F0'
             opacity: 54
