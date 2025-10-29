@@ -13,8 +13,12 @@ sections:
       - isTextCentered: true
         fontSizeLarge: text-2xl
         copy: >
-          Our streamlined, results-driven team prioritizes relationship-building
-          and is dedicated to adding value and fostering long-term partnerships.
+          Our team excels in distribution and capital raising for various
+          strategies. We build relationships to connect fund managers with
+          investors effectively. 
+
+
+          Key members:
         _template: simpleCopy
       - member:
           - backgroundColor: '#8FB3EC'
