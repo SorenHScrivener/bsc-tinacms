@@ -7,7 +7,7 @@ cover:
   brightness: 57
 sections:
   - sectionTitle: Our Process
-    isTitleHidden: true
+    isTitleHidden: false
     id: Id-745038870289
     content:
       - isTextCentered: false
