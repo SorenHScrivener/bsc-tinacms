@@ -10,7 +10,7 @@ sections:
     isTitleHidden: true
     id: Id-745038870289
     content:
-      - isTextCentered: true
+      - isTextCentered: false
         fontSizeLarge: text-2xl
         subTitle: How We Support Your Funds
         copy: >
