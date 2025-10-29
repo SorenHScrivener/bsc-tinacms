@@ -6,15 +6,15 @@ cover:
   coverImage: /Covers/our-process.jpg
   brightness: 57
 sections:
-  - sectionTitle: Our Process
+  - sectionTitle: How We Support Your Funds
     isTitleHidden: true
     id: Id-745038870289
     content:
       - isTextCentered: true
-        subTitle: Our Process
+        subTitle: How We Support Your Funds
         copy: >
           BackStory Capital makes distribution and capital raising simple and
-          effective: 
+          effective:
         _template: simpleCopy
       - style: standard
         cards:
@@ -58,7 +58,7 @@ sections:
               We offer clients high-quality sales materials, investor
               presentations, fund updates, and detailed quarterly reports with
               insights as standard. Our detail-focused Marketing Services team
-              excels at distributing this information to our partners. 
+              excels at distributing this information to our partners.
           - subTitle: Sales Education & Support
             backgroundColor: '#D6E4F0'
             opacity: 54
