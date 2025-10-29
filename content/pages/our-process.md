@@ -2,7 +2,7 @@
 pageTitle: BackStory Capital's Process
 slug: /our-process
 cover:
-  copy: Our Process
+  copy: How We Support Your Funds
   coverImage: /Covers/our-process.jpg
   brightness: 57
 sections:
