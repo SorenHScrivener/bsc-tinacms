@@ -6,7 +6,7 @@ cover:
   coverImage: /Covers/our-process.jpg
   brightness: 57
 sections:
-  - sectionTitle: How We Support Your Funds
+  - sectionTitle: Our Process
     isTitleHidden: true
     id: Id-745038870289
     content:
