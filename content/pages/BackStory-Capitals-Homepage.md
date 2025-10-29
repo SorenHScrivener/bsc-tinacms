@@ -2,7 +2,7 @@
 pageTitle: BackStory Capital's Homepage
 slug: /
 cover:
-  copy: every backstory inspires new opportunities
+  copy: 'Raising Capital, Distributing Success: Your Advisory Partner'
   coverImage: /Covers/home.webp
   brightness: 65
 sections:
