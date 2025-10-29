@@ -7,13 +7,14 @@ cover:
   brightness: 57
 sections:
   - sectionTitle: Our Process
-    isTitleHidden: false
+    isTitleHidden: true
     id: Id-745038870289
     content:
       - isTextCentered: true
+        subTitle: Our Process
         copy: >
           Our process makes distribution and capital raising simple and
-          effective. 
+          effective.
         _template: simpleCopy
       - style: standard
         cards:
