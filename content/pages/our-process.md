@@ -77,12 +77,11 @@ sections:
             borderColor: '#8FB3EC'
             image: /cardImgs/interview-4835116_640.jpg
             copy: >
-              Our dedicated Client Relations team provides personalized service
-              to our growing base of investors. We maintain relationships with
-              custodians and work with sales representatives to ensure all
-              subscriptions are processed in good order and in a timely fashion.
-              Additionally, we provide access to tax forms, historical data /
-              information and assist with proxy voting.
+              We maintain relationships with custodians, transfer agents,
+              administrators, and sales reps to process subscriptions quickly
+              and accurately. We also collaborate with investor relations to
+              give clients easy access to tax forms, historical data, and
+              distributions.
         _template: cardsArray
 ---
 
