@@ -10,6 +10,11 @@ sections:
     isTitleHidden: false
     id: Id-745038870289
     content:
+      - isTextCentered: true
+        copy: >
+          Our process makes distribution and capital raising simple and
+          effective. 
+        _template: simpleCopy
       - style: standard
         cards:
           - subTitle: Product Development
