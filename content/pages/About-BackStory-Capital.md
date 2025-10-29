@@ -14,13 +14,8 @@ sections:
         isImageFirst: true
         image: /splitImages/comp.jpg
         copy: >
-          BackStory Capital's mission is to serve as a trusted source for
-          alternative investment strategies, transforming how investors perceive
-          these opportunities. Leveraging our expertise, we offer
-          market-specific strategies and provide exceptional client relations,
-          supported by dedicated sales and marketing teams. We prioritize
-          building mutually beneficial relationships with our team, business
-          partners, and clients.
+          We help fund managers access alternative investments through tailored
+          strategies, strong support, and full advisory services
         _template: splitContent
   - sectionTitle: Our Expertise
     isTitleHidden: false
