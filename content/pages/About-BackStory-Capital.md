@@ -15,7 +15,7 @@ sections:
         image: /splitImages/comp.jpg
         copy: >
           We help fund managers access alternative investments through tailored
-          strategies, strong support, and full advisory services
+          strategies, strong support, and full advisory services.
         _template: splitContent
   - sectionTitle: Our Expertise
     isTitleHidden: false
