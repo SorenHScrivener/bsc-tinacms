@@ -13,10 +13,12 @@ sections:
       - fontSizeLarge: text-2xl
         subTitle: ''
         copy: >
-          BackStory Capital LLC is a boutique alternative investment firm with a
-          wide range of capabilities. We offer distinctive investment strategies
-          to a diverse array of investors, with a special emphasis on
-          income-generating, value-add, and development real estate
+          Backstory Capital is a capital advisory group specializing in
+          distribution and capital raising for multiple strategies. We connect
+          investors with real estate, tax-efficient, and opportunistic
+          opportunities through strong partnerships.  We offer distinctive
+          investment strategies to a diverse array of investors, with a special
+          emphasis on income-generating, value-add, and development real estate
           opportunities.
 
 
