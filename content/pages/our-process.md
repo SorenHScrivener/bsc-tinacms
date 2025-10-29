@@ -13,8 +13,8 @@ sections:
       - isTextCentered: true
         subTitle: How We Support Your Funds
         copy: >
-          BackStory Capital makes distribution and capital raising simple and
-          effective:
+          From fund setup to distribution—our streamlined process gets your
+          strategies to market quickly.
         _template: simpleCopy
       - style: standard
         cards:
