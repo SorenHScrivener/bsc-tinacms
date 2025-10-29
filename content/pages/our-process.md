@@ -11,7 +11,7 @@ sections:
     id: Id-745038870289
     content:
       - isTextCentered: true
-        fontSizeLarge: text-lg
+        fontSizeLarge: text-2xl
         subTitle: How We Support Your Funds
         copy: >
           From fund setup to distribution—our streamlined process gets your
