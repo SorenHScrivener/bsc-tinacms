@@ -19,8 +19,8 @@ sections:
           these opportunities. Leveraging our expertise, we offer
           market-specific strategies and provide exceptional client relations,
           supported by dedicated sales and marketing teams. We prioritize
-          building mutually beneficial relationships with our employees,
-          business partners, and clients.
+          building mutually beneficial relationships with our team, business
+          partners, and clients.
         _template: splitContent
   - sectionTitle: Our Expertise
     isTitleHidden: false
