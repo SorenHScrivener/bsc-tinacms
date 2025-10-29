@@ -2,7 +2,7 @@
 pageTitle: BackStory Capital's Homepage
 slug: /
 cover:
-  copy: 'Raising Capital, Distributing Success: Your Advisory Partner'
+  copy: Innovative Strategies for Capital Raising and Distribution
   coverImage: /Covers/home.webp
   brightness: 65
 sections:
