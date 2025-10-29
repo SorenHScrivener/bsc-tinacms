@@ -6,7 +6,7 @@ cover:
   coverImage: /Covers/strategies.webp
   brightness: 48
 sections:
-  - sectionTitle: How We Support Your Funds
+  - sectionTitle: Our Strategies
     id: Id-164118235157
     content:
       - isTextCentered: true
