@@ -2,7 +2,7 @@
 pageTitle: About BackStory Capital
 slug: /about-us
 cover:
-  copy: Our Mission
+  copy: About Us
   coverImage: /Covers/about-us.jpg
   brightness: 71
 sections:
