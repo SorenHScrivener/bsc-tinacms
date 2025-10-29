@@ -9,8 +9,11 @@ sections:
   - sectionTitle: Our Strategies
     id: Id-164118235157
     content:
-      - isTextCentered: true
-        fontSizeLarge: text-lg
+      - isTextCentered: false
+        fontSizeLarge: text-2xl
+        subTitle: >-
+          Partner with Backstory Capital and raise capital efficiently through
+          our networks
         copy: >
           We collaborate with top commercial real estate firms to raise capital
           for fund vehicles and direct investment opportunities. We join forces
@@ -18,10 +21,10 @@ sections:
           commitment to investors.
 
 
-          Tax mitigation strategies include but not limited to: 
+          Tax mitigation strategies include but not limited to:
 
 
-          1031 Exchanges 
+          1031 Exchanges
 
 
           Opportunity Zones
