@@ -12,7 +12,7 @@ sections:
     content:
       - isTextCentered: false
         fontSizeLarge: text-2xl
-        subTitle: How We Support Your Funds
+        subTitle: ''
         copy: >
           From fund setup to distribution—our streamlined process gets your
           strategies to market quickly.
