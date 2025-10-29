@@ -15,6 +15,15 @@ sections:
         copy: >
           From fund setup to distribution—our streamlined process gets your
           strategies to market quickly.
+
+
+          * Leverage Our Strong Network: We partner with top broker-dealers to
+          expand distribution and accelerate capital raising for your
+          strategies.
+
+          * We maintain strong relationships within our broker-dealer network to
+          ensure seamless subscriptions, compliance, and access to a wider
+          investor base.
         _template: simpleCopy
       - style: standard
         cards:
