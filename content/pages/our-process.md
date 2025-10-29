@@ -13,8 +13,8 @@ sections:
       - isTextCentered: true
         subTitle: Our Process
         copy: >
-          Our process makes distribution and capital raising simple and
-          effective.
+          BackStory Capital makes distribution and capital raising simple and
+          effective: 
         _template: simpleCopy
       - style: standard
         cards:
