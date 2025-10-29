@@ -80,8 +80,8 @@ sections:
               We maintain relationships with custodians, transfer agents,
               administrators, and sales reps to process subscriptions quickly
               and accurately. We also collaborate with investor relations to
-              give clients easy access to tax forms, historical data,
-              distributions and quarterly reports.
+              give clients easy access to tax forms, historical data and fund
+              reports.
         _template: cardsArray
 ---
 
