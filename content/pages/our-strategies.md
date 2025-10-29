@@ -2,11 +2,13 @@
 pageTitle: BackStory Capital's Strategies
 slug: /our-strategies
 cover:
-  copy: Our Strategies
+  copy: >-
+    Partner with Backstory Capital and raise capital efficiently through our
+    networks
   coverImage: /Covers/strategies.webp
   brightness: 48
 sections:
-  - sectionTitle: Our Strategies
+  - sectionTitle: our strategies
     isTitleHidden: false
     id: Id-164118235157
     content:
