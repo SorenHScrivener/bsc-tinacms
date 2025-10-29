@@ -14,8 +14,8 @@ sections:
         fontSizeLarge: text-2xl
         copy: >
           Our team excels in distribution and capital raising for various
-          strategies. We build relationships to connect fund managers with
-          investors effectively. 
+          strategies. We build relationships to connect managers with investors
+          effectively. 
 
 
           Key members:
