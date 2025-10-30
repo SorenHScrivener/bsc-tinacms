@@ -38,7 +38,7 @@ sections:
     id: Id-877877745062
     content:
       - isTextCentered: true
-        fontSizeLarge: text-lg
+        fontSizeLarge: text-2xl
         copy: >
           Co-GP Multi-Family Development funds (OZ and Merchant build),
           Opportunistic/Distress fund, Texas Value-Add Self-Storage funds,
