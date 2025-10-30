@@ -23,7 +23,7 @@ sections:
     content:
       - backgroundColor: '#95BB6A'
         isImageFirst: false
-        image: /splitImages/iStock-952980894.jpg
+        image: /cardImgs/teamwork-3213924_640.jpg
         copy: >
           Our advisory services encompass all aspects of the capital markets
           process for each manager we represent, including fund structuring,
