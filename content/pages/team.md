@@ -10,7 +10,7 @@ sections:
     isTitleHidden: false
     id: Id-306559266317
     content:
-      - isTextCentered: true
+      - isTextCentered: false
         fontSizeLarge: text-2xl
         copy: >
           Our team excels in distribution and capital raising for various
