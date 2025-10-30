@@ -20,19 +20,22 @@ sections:
 
 
           We actively source and collaborate with top-tier fund managers to
-          develop unique strategies. 
+          develop unique strategies.
 
 
           Our comprehensive approach includes:
 
 
-          * Strategy Assessment
+          Strategy Assessment
 
-          * Fund Structuring
 
-          * Market Positioning & Distribution
+          Fund Structuring
 
-          * Partnership Management
+
+          Market Positioning & Distribution
+
+
+          Partnership Management
         _template: simpleCopy
   - sectionTitle: Who We Serve
     isTitleHidden: false
