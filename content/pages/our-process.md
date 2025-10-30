@@ -19,22 +19,10 @@ sections:
           expand distribution, accelerate capital raising, ensure seamless
           subscriptions, compliance, and access to a wider investor base.
         _template: simpleCopy
-  - sectionTitle: Our Process
-    isTitleHidden: false
+  - sectionTitle: our process
+    isTitleHidden: true
     id: Id-745038870289
     content:
-      - isTextCentered: false
-        fontSizeLarge: text-2xl
-        subTitle: ''
-        copy: >
-          From fund setup to distribution—our streamlined process gets your
-          strategies to market quickly.
-
-
-          Leverage Our Strong Network: We partner with top broker-dealers to
-          expand distribution, accelerate capital raising, ensure seamless
-          subscriptions, compliance, and access to a wider investor base.
-        _template: simpleCopy
       - style: standard
         cards:
           - subTitle: Product Development
