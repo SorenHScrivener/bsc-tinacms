@@ -9,7 +9,8 @@ sections:
   - sectionTitle: Our Process
     id: Id-894784964374
     content:
-      - copy: >
+      - fontSizeLarge: text-2xl
+        copy: >
           From fund setup to distribution—our streamlined process gets your
           strategies to market quickly.
 
