@@ -124,7 +124,7 @@ sections:
     id: Id-847714648675
     content:
       - isTextCentered: true
-        fontSizeLarge: text-lg
+        fontSizeLarge: text-2xl
         copy: >
           We are proud to work with exceptional partners to deliver top-tier
           advisory services.
