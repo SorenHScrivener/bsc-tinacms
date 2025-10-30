@@ -7,6 +7,18 @@ cover:
   brightness: 57
 sections:
   - sectionTitle: Our Process
+    id: Id-894784964374
+    content:
+      - copy: >
+          From fund setup to distribution—our streamlined process gets your
+          strategies to market quickly.
+
+
+          Leverage Our Strong Network: We partner with top broker-dealers to
+          expand distribution, accelerate capital raising, ensure seamless
+          subscriptions, compliance, and access to a wider investor base.
+        _template: simpleCopy
+  - sectionTitle: Our Process
     isTitleHidden: false
     id: Id-745038870289
     content:
