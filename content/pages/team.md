@@ -2,7 +2,7 @@
 pageTitle: BackStory Capital's Team
 slug: /team
 cover:
-  copy: Our Team
+  copy: Meet the experts driving our capital strategies
   coverImage: /Covers/team.jpg
   brightness: 71
 sections:
@@ -15,7 +15,7 @@ sections:
         copy: >
           Our team excels in distribution and capital raising for various
           strategies. We build relationships to connect managers with investors
-          effectively. 
+          effectively.
 
 
           Key members:
