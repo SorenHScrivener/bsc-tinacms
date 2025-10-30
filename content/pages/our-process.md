@@ -15,12 +15,9 @@ sections:
           strategies to market quickly.
 
 
-          Leverage Our Strong Network: 
-
-
-          We partner with top broker-dealers to expand distribution, accelerate
-          capital raising, ensure seamless subscriptions, compliance, and access
-          to a wider investor base.
+          Leverage Our Strong Network: We partner with top broker-dealers to
+          expand distribution, accelerate capital raising, ensure seamless
+          subscriptions, compliance, and access to a wider investor base.
         _template: simpleCopy
   - sectionTitle: our process
     isTitleHidden: true
