@@ -135,7 +135,8 @@ sections:
               skills while forging valuable professional connections and
               enduring relationships.
             image: /Team/Zack 2.jpg
-          - name: Kip Denison
+          - backgroundColor: '#95BB6A'
+            name: Kip Denison
             title: AVP Capital Markets
             bio: >
               Kip serves as Assistant Vice President of Capital Markets at
