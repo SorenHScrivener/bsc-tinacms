@@ -135,6 +135,21 @@ sections:
               skills while forging valuable professional connections and
               enduring relationships.
             image: /Team/Zack 2.jpg
+          - name: Kip Denison
+            title: AVP Capital Markets
+            bio: >
+              Kip serves as Assistant Vice President of Capital Markets at
+              BackStory Capital, bringing nearly a decade of experience in
+              finance, sales, and real estate partnerships across top commercial
+              and residential enterprises. 
+
+
+              Before joining BackStory, Kip was with Fidelity National
+              Financial, where he excelled in serving clients with top data
+              solutions and revenue growth counsel. He carries a finance degree
+              from the University of Kentucky and an MBA in finance from The
+              Citadel Military College. Kip is a FINRA-licensed professional,
+              holding Series 7 and Series 63 certifications.
         _template: team
 ---
 
