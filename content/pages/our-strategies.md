@@ -24,7 +24,7 @@ sections:
 
 
           **Roth Conversion Real Estate **- Transform traditional IRAs into
-          tax-efficient Roth IRAs by investing in high-growth real estate.
+          tax-efficient Roth IRAs by investing in high-growth real estate
 
 
           **Qualified Opportunity Zones - **Up to 100% asset base growth in
