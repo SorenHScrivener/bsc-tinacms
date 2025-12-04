@@ -150,6 +150,7 @@ sections:
               from the University of Kentucky and an MBA in finance from The
               Citadel Military College. Kip is a FINRA-licensed professional,
               holding Series 7 and Series 63 certifications.
+            image: /Team/KD headshot.JPG
         _template: team
 ---
 
