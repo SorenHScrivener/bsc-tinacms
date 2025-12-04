@@ -23,19 +23,24 @@ sections:
           Tax mitigation strategies include but not limited to:
 
 
-          Roth Conversions
+          **Roth Conversion Real Estate **- Transform traditional IRAs into
+          tax-efficient Roth IRAs by investing in high-growth real estate.
 
 
-          Qualified Opportunity Zones
+          **Qualified Opportunity Zones - **Up to 100% asset base growth in
+          designated areas with deferral and reduction in federal taxes
 
 
-          1031 Exchange & Delaware Statutory Trusts (DSTs)
+          **1031 Exchange & Delaware Statutory Trusts (DSTs) - **Defer immediate
+          gains and invest seamlessly in diverse properties
 
 
-          Bonus Depreciation
+          **Bonus Depreciation - **Immediate tax savings with accelerated
+          depreciation on new purchases
 
 
-          Charitabe Donation Program
+          **Charitable Donation Program - **non-listed, social impact, potential
+          AGI reduction by 50%
         _template: simpleCopy
   - sectionTitle: Investment Opportunities
     isTitleHidden: false
