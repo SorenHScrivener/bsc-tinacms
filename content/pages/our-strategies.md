@@ -23,13 +23,19 @@ sections:
           Tax mitigation strategies include but not limited to:
 
 
-          1031 Exchanges
-
-
-          Opportunity Zones
-
-
           Roth Conversions
+
+
+          Qualified Opportunity Zones
+
+
+          1031 Exchange & Delaware Statutory Trusts (DSTs)
+
+
+          Bonus Depreciation
+
+
+          Charitabe Donation Program
         _template: simpleCopy
   - sectionTitle: Investment Opportunities
     isTitleHidden: false
