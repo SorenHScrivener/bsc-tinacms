@@ -49,8 +49,8 @@ sections:
       - isTextCentered: true
         fontSizeLarge: text-2xl
         copy: >
-          Co-GP Multi-Family Development funds (OZ and Merchant build),
-          Opportunistic/Distress fund, Texas Value-Add Self-Storage funds
+          Co-GP Development funds, Roth Conversion, Opportunity Zone funds,
+          Opportunistic/Distress fund, DST, Texas Value-Add Self-Storage funds
         _template: simpleCopy
       - style: logo
         cards:
