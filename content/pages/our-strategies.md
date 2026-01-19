@@ -50,8 +50,7 @@ sections:
         fontSizeLarge: text-2xl
         copy: >
           Co-GP Multi-Family Development funds (OZ and Merchant build),
-          Opportunistic/Distress fund, Texas Value-Add Self-Storage funds,
-          Tax-Efficient Charitable donation
+          Opportunistic/Distress fund, Texas Value-Add Self-Storage funds
         _template: simpleCopy
       - style: logo
         cards:
@@ -107,29 +106,6 @@ sections:
 
 
               [https://www.apollo-united.com/](https://www.apollo-united.com/)
-          - subTitle: Stonecoal Investors - Coal Mining Operation
-            backgroundColor: '#D6E4F0'
-            opacity: 100
-            borderColor: '#8FB3EC'
-            image: /Stonecoal.png
-            copy: >
-              Opportunistic/special-situations focused on value creation via
-              mining development or tax-efficient charitable donation/investment
-              alternatives, with capital preservation and cash distribution
-              goals.
-
-
-              The Management Team operated a family real estate development and
-              utility company for nearly 25 years, developing over 60,000
-              residential lots across Georgia, North Carolina, and South
-              Carolina for major builders like Pulte Homes and Toll Brothers.
-              With 34 years of experience as a developer and contractor, managed
-              up to 400 employees, oversaw business strategy, fleet management,
-              and equipment acquisition, while expanding the company to include
-              quarry services and an in-house residential engineering firm.
-
-
-              [https://evrsourcecapital.1776ing.com/](https://evrsourcecapital.1776ing.com/)
         _template: cardsArray
   - sectionTitle: Our Partners
     id: Id-847714648675
