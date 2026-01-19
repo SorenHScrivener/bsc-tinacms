@@ -45,7 +45,7 @@ sections:
       - isTextCentered: true
         fontSizeLarge: text-2xl
         copy: >
-          Co-GP Development funds, Roth Conversion, Opportunity Zone funds,
+          Co-GP Development funds, Opportunity Zone funds,
           Opportunistic/Distress fund, DST, Texas Value-Add Self-Storage funds
         _template: simpleCopy
       - style: logo
