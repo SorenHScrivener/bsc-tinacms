@@ -6,7 +6,7 @@ cover:
   coverImage: /Covers/strategies.webp
   brightness: 48
 sections:
-  - sectionTitle: our strategies
+  - sectionTitle: Our Strategies
     isTitleHidden: false
     id: Id-164118235157
     content:
