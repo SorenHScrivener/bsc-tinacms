@@ -13,10 +13,10 @@ sections:
       - fontSizeLarge: text-2xl
         subTitle: ''
         copy: >
-          BackStory Capital is a advisory group specializing in capital raising
-          and distribution. We offer distinctive investment strategies with a
-          special emphasis on income-generating, value-add, and development real
-          estate opportunities.
+          At BackStory Capital, our expert advisory team specializes in capital
+          raising and distribution.  We offer distinctive investment strategies
+          with a tailored emphasis on income-generating, development, and
+          value-add real estate opportunities.
 
 
           We actively source and collaborate with top-tier fund managers to
