@@ -43,17 +43,22 @@ sections:
     content:
       - subTitle: ''
         icon:
+          - label: Real Estate Owners and Operators
+            image: /Icons/third.webp
+          - label: Family Offices
+            image: /Icons/fifth.webp
           - label: Financial Advisors
             image: /Icons/first.webp
           - label: HNW Investors
             image: /Icons/second.webp
-          - label: Real Estate Owners and Operators
-            image: /Icons/third.webp
           - label: Business Owners
             image: /Icons/fourth.webp
-          - label: Family Offices
-            image: /Icons/fifth.webp
         _template: iconsArray
+  - sectionTitle: Capital Raised
+    isTitleHidden: false
+    id: Id-770642654481
+    content:
+      - _template: iconsArray
   - sectionTitle: Message from the Founding Partners
     isTitleHidden: false
     id: Id-788290396354
