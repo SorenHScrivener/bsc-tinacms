@@ -54,13 +54,6 @@ sections:
           - label: Business Owners
             image: /Icons/fourth.webp
         _template: iconsArray
-  - sectionTitle: Capital Raised
-    isTitleHidden: false
-    id: Id-770642654481
-    content:
-      - addStatic: false
-        subTitle: Our latest transactions
-        _template: iconsArray
   - sectionTitle: Message from the Founding Partners
     isTitleHidden: false
     id: Id-788290396354
