@@ -58,7 +58,9 @@ sections:
     isTitleHidden: false
     id: Id-770642654481
     content:
-      - _template: iconsArray
+      - addStatic: false
+        subTitle: Our latest transactions
+        _template: iconsArray
   - sectionTitle: Message from the Founding Partners
     isTitleHidden: false
     id: Id-788290396354
